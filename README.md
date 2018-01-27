@@ -32,7 +32,8 @@ amgauna.github.io
 </head>
   
 <body>
-  
+
+<article>
 <p>
 Ana Mercedes Gauna
 <p>
@@ -67,7 +68,8 @@ Tenho muita paciência para analisar dados, analisar problemas técnicos em sofw
 <p>
 Tenho experiência com desenvolvimento web de sites (ou Blog) para profissionais liberais com domínio próprio, configuração do Google AdWords, Google AdSence, Google analytics, Google Webmasters, Google Tags, Facebook, criação de imagem para anúncios web.  
  <p>
- 
+</article>
+
 <div class="container">
   <br>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
