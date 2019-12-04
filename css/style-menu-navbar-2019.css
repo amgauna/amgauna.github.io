@@ -81,18 +81,14 @@
 	li { list-style-type: none; margin: 0; padding: 0; }
 	
 	/* Add a color to the current link */
-	a:visited { background-color: #f2f2f2; /* cor cinza prata muito claro */ 
-      	        color: #700000; }  /* cor vermelho escuro margenta */
+	a:visited { color: #700000; }  /* cor vermelho escuro margenta */
 	
-    a:hover { background-color: #005f5f; /* cor verde escuro */  /* hover = flutuar */
-	          color: #f4511e; } /* laranja */
+        a:hover { color: #f4511e; } /* laranja */
 			  
-    a:active { background-color: #fffddd;	/* amarelo */
-	           color: #9F00FF; } /* violeta escuro */
+        a:active { color: #9F00FF; } /* violeta escuro */
 			   
-	a:focus { background-color: #ffffff; /* branco */
-	          color: #444444; } /* cinza escuro  */	
-	
+	a:focus { color: #444444; } /* cinza escuro  */	
+		
 /* ================================================================================ */
 	
 	/* 	NAVBAR NAVIGATION  / MOBILE MENU RESPONSIVE */ 
