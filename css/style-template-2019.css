@@ -61,28 +61,11 @@
 	/* Mobile Display Responsive / html font-size:100% / font-size:12px */
 	
 	*{ margin: 0; padding: 0px; box-sizing: border-box; }
-	*{ box-sizing: border-box; /* Setting the box-size border-box */ }
-	
-	html { width: 100%; 
-	       height: 100%; 
-		   margin: 0; 
-		   padding:0;
-	       background-color: #ffffff; /* cor branco cinza claro */
-	       font-family: Georgia, Helvetica, Serif; 
-		   font-size: medium; 
-		   z-index: 100%;
-		   } 
-		 
-    main { padding: 0px; 
-	       height: 100%; 
-		   background-color: #273b49; /* cinza azulado escuro */
-		   color: #ffffff /* branco */
-		   } 
-                         	
-	body { background-color: #ffffff; /* branco */
-	       color: #000000; /* preto */
-	       text-decoration: none; 
-	       }
+		     
+    body{ font-family: arial, helvetica, sans-serif; font-size: medium;
+          background-color:#f1f1f1; color: #000000;
+          text-decoration: none; 
+	  }
 	
     /* Styling the header */	
     header { background-color: #cccccc; /* cinza prata */
