@@ -48,136 +48,109 @@
      <div class="container">
           <div class="row">
 
-================================================================================================================================
+<!-- inicio do MENU / Bootstrap -->
 
+<!-- Menu Bootstrap Collapse
+     .collapse esconde o conteúdo;
+     .collapsing é aplicado durante a transição;
+     .collapse.show mostra o conteúdo. -->
+	 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
-    <span class="navbar-toggler-icon"></span>
+  <a class="navbar-brand" id="Inicio" href="#">Menu</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Destaques</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Preços</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Link dropdown
+      <ul class="navbar-nav">
+	
+        <li class="nav-item active">
+            <a class="nav-link" href="index.php">Home <span class="sr-only">(Página atual)</span>
+		    <span class="glyphicon glyphicon-home sr-only"><b>Home</b> </span> </a>		
+        </li>
+  
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+		   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sobre
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Ação</a>
-          <a class="dropdown-item" href="#">Outra ação</a>
-          <a class="dropdown-item" href="#">Algo mais aqui</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">		  
+            <a class="dropdown-item" href="sobre-mim.php">
+		    <span class="glyphicon glyphicon-briefcase"><b>Sobre mim</b> </span> </a>
+            <a class="dropdown-item" href="artigos.php"> 
+		    <span class="glyphicon glyphicon-th-large"><b>Artigos</b> </span> </a> 					
+            <a class="dropdown-item" href="curriculo.php">Curriculo</a>					
+		    <a class="dropdown-item" href="api-twitter.php"> 					
+		    <span class="glyphicon glyphicon-cloud"><b>Api Twitter</b> </span> </a>						
+            <a class="dropdown-item" href="http://www.anagauna.eti.br/musicas/musicas.php"> 
+		    <span class="glyphicon glyphicon-film"><b>Youtube</b> </span> </a>
         </div>
-      </li>
+		
+		<a class="nav-link dropdown-toggle" href="#Servico" id="navbarDropdownMenuLink" role="button"
+		   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           <span class="glyphicon glyphicon-usd"><b>O que fazemos ?</b> </span> 
+		</a>
+		<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+		    <a class="dropdown-item" href="html/webdeveloper.html">Web Developer</a>
+            <a class="dropdown-item" href="html/google-seo.html">SEO</a>
+            <a class="dropdown-item" href="html/design-grafico.html">Design Gráfico</a>
+            <a class="dropdown-item" href="html/suporte-tecnico.html">Suporte Técnico</a>
+        </div>        
+		
+		<a class="nav-link dropdown-toggle" href="#Liks" id="navbarDropdownMenuLink" role="button"
+		   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           <span class="glyphicon glyphicon-briefcase"><b>Links</b> </span> 
+		</a>
+		<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+		    <p><u><i>Ana Gauna Tech</i></u></p>
+			<a class="dropdown-item" href="http://www.anagauna.eti.br">Website Pessoal</a>
+			<a class="dropdown-item" href="https://anagaunatech.blogspot.com">
+			<span class="glyphicon glyphicon-globe"><b>Blogspot</b> </span> </a>
+			<a class="dropdown-item" href="https://facebook.com/anagaunatech">Facebook</a>
+			<a class="dropdown-item" href="https://instagram.com/anagaunatech">Instagram</a>
+			<a class="dropdown-item" href="https://twitter.com/anagaunatech">Twitter</a>
+			<a class="dropdown-item" href="https://linkedin.com/in/amgauna">Linkedin</a>			
+			<a class="dropdown-item" href="https://github.com/amgauna">GitHUB</a>
+			<a class="dropdown-item" href="https://behance.net/amgauna">Behance</a>
+			<a class="dropdown-item" href="https://medium.com/@anagauna">Medium</a>
+			<p><u><i>Amgauna Tecnologia</u></i></p>
+		    <a class="dropdown-item" href="http://www.amgauna.com.br"> Website Comercial</a>
+			<a class="dropdown-item" href="https://facebook.com/amgauna">Loja Facebook</a>
+			<a class="dropdown-item" href="https://instagram.com/amgauna">Instagram</a>
+			<a class="dropdown-item" href="https://twitter.com/amgauna">Twitter</a>
+			<p><u><i>Mulher Tech Blog</u></i></p>
+			<a class="dropdown-item" href="https://mulhertech.blogspot.com">Blogspot</a>
+			<a class="dropdown-item" href="http://mulhertech.com.br">Website</a>
+		</div>
+
+        <a class="nav-link dropdown-toggle" href="#Contato" id="navbarDropdownMenuLink" role="button"
+		   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contato 
+        </a>
+		<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="formulario-contato.php"> 
+			<span class="glyphicon glyphicon-envelope"><b>Envie uma mensagem</b> </span> </a> 
+            <a class="dropdown-item" href="#">Telefone: +55 (021) 2538-0399</a>
+            <a class="dropdown-item" href="https://api.whatsapp.com/send?phone=5521979371230">WhatsApp +55 (021) 97937-1230</a>	
+            <a class="dropdown-item" href="mailto:amgauna@gmail.com">email: amgauna@gmail.com</a>
+            <a class="dropdown-item" href="mailto:amgauna@outlook.com">email: amgauna@outlook.com</a>
+            <a class="dropdown-item" href="mailto:amgauna@yahoo.com">email: yahoo.com</a>
+			<a class="dropdown-item" href="mailto:anagauna@anagauna.eti.br">email: anagauna@anagauna.eti.br</a>
+            <a class="dropdown-item" href="mailto:amgauna@amgauna.com.br">email: amgauna@amgauna.com.br</a>					
+        </div>
+		
+		<li class="nav-item">
+                <a class="nav-link disabled" label="login" href="login.php">
+				<span class="glyphicon glyphicon-log-in"><b>Login</b></span> </a>
+        </li>
+    </ul>          
+	<form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+    </form>
     </ul>
   </div>
 </nav>	 
+	 	 
+
 		  
-		  
-=================================================================================================================================
-		  
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Menu</a>	
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" 
-	        aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-            <span class="navbar-toggler-icon"></span> 
-	</button>
-    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-        <ul class="navbar-nav mr-auto">	
-            <li class="nav-item active"> <a class="nav-link" label="Home" href="index.html"> 
-				<span class="glyphicon glyphicon-home sr-only"><b>Home</b> </span> </a> 
-            </li>		
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" label="SobreMim" href="#SobreMim" id="navbarDropdown" 
-				   role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">				   
-				</a>		  
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-				    <div class="dropdown-divider"></div>
-				    <a class="dropdown-item" href="sobre-mim.php">
-					<span class="glyphicon glyphicon-briefcase"><b>Sobre</b> </span>
-                    <a class="dropdown-item" href="artigos.php"> 
-				    <span class="glyphicon glyphicon-th-large"><b>Artigos</b> </span> </a> 
-                    <a class="dropdown-item" href="curriculo.php">Curriculo</a>
-					<a class="dropdown-item" href="api-twitter.php"> 
-				    <span class="glyphicon glyphicon-cloud"><b>Api Twitter</b> </span> </a>					
-                    <a class="dropdown-item" href="http://www.anagauna.eti.br/musicas/musicas.php"> 
-				    <span class="glyphicon glyphicon-film"><b>Youtube</b> </span> </a>
-                </div>				    
-			</li>			
-			<li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" label="Servicos" href="#Servicos" id="navbarDropdown" 
-				   role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				   <span class="glyphicon glyphicon-usd"><b>O que fazemos ?</b> </span> 
-				</a>		  
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="html/webdeveloper.html">Web Developer</a>
-                    <a class="dropdown-item" href="html/google-seo.html">SEO</a>
-                    <a class="dropdown-item" href="html/design-grafico.html">Design Gráfico</a>
-                    <a class="dropdown-item" href="html/suporte-tecnico.html">Suporte Técnico</a>
-                </div>                    
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" label="Links" href="#Links" id="navbarDropdown" 
-				   role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				   <span class="glyphicon glyphicon-briefcase"><b>Links</b> </span> 
-				</a>		
-		        <div class="dropdown-divider">Ana Gauna Tech</div>
-				    <a class="dropdown-item" href="http://www.anagauna.eti.br">Website</a>
-					<a class="dropdown-item" href="https://anagaunatech.blogspot.com">
-					          <span class="glyphicon glyphicon-globe"><b>Ana Gauna Tech - Blogspot</b> </span></a>
-					<a class="dropdown-item" href="https://facebook.com/anagaunatech">Ana Gauna Tech - Facebook</a>
-					<a class="dropdown-item" href="https://instagram.com/anagaunatech">Ana Gauna Tech - Instagram</a>
-					<a class="dropdown-item" href="https://twitter.com/anagaunatech">Ana Gauna Tech - Twitter</a>
-					<a class="dropdown-item" href="https://linkedin.com/in/amgauna">Ana Gauna Tech - Linkedin</a>
-					<a class="dropdown-item" href="https://github.com/amgauna">Ana Gauna Tech - GitHUB</a>
-					<a class="dropdown-item" href="https://behance.net/amgauna">Ana Gauna Tech - Adobe Behance</a>
-					<a class="dropdown-item" href="https://medium.com/@anagauna">Ana Gauna - Medium</a>
-				</div>	
-			    <div class="dropdown-divider">Amgauna Tecnologia</div>
-					<a class="dropdown-item" href="http://www.amgauna.com.br"> Amgauna Tecnologia - Website</a>
-					<a class="dropdown-item" href="https://facebook.com/amgauna">Amgauna Tecnologia - Facebook</a>
-					<a class="dropdown-item" href="https://instagram.com/amgauna">Amgauna Tecnologia - Instagram</a>
-					<a class="dropdown-item" href="https://twitter.com/amgauna">Amgauna Tecnologia - Twitter</a>
-					<a class="dropdown-item" href="https://mulhertech.blogspot.com">MulherTech - Blogspot</a>
-					<a class="dropdown-item" href="http://mulhertech.com.br">MulherTech - Website</a>
-				</div>
-			</li>			
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" label="Contato" href="Contato" id="navbarDropdown" 
-				   role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
-				</a>
-                <div class="dropdown-divider"></div>
-				    <a class="dropdown-item" href="formulario-contato.php"> 
-				    <span class="glyphicon glyphicon-envelope"><b>Envie uma mensagem</b> </span> </a> 
-                    <a class="dropdown-item" href="#">Telefone: +55 (021) 2538-0399</a>
-                    <a class="dropdown-item" href="https://api.whatsapp.com/send?phone=5521979371230">WhatsApp +55 (021) 97937-1230</a>	
-                    <a class="dropdown-item" href="mailto:amgauna@gmail.com">email: amgauna@gmail.com</a>
-                    <a class="dropdown-item" href="mailto:amgauna@outlook.com">email: amgauna@outlook.com</a>
-                    <a class="dropdown-item" href="mailto:amgauna@yahoo.com">email: yahoo.com</a>
-					<a class="dropdown-item" href="mailto:anagauna@anagauna.eti.br">email: anagauna@anagauna.eti.br</a>
-                    <a class="dropdown-item" href="mailto:amgauna@amgauna.com.br">email: amgauna@amgauna.com.br</a>					
-                </div>
-            </li>		
-            <li class="nav-item">
-                <a class="nav-link disabled" label="login" href="login.php">
-				<span class="glyphicon glyphicon-log-in"><b>Login</b></span> </a>
-            </li>
-        </ul>          
-	    <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-        </form>
-    </div>
-</nav>
-  
  </div>  <!--  row -->    
  </div>  <!--  container --> 
  </div>  <!--  section  -->
