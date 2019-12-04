@@ -62,10 +62,10 @@
 	
 	*{ margin: 0; padding: 0px; box-sizing: border-box; }
 		     
-    body{ font-family: arial, helvetica, sans-serif; font-size: medium;
-          background-color:#f1f1f1; color: #000000;
-          text-decoration: none; 
-	  }
+    html, body , main, section { font-family: arial, helvetica, sans-serif; font-size: medium;
+                                 background-color:#f1f1f1; color: #000000;
+                                 text-decoration: none; 
+	                             }
 	
     /* Styling the header */	
     header { background-color: #cccccc; /* cinza prata */
