@@ -84,41 +84,6 @@
          padding-left: 5px;
          }
 
-    /* Links Color */
-	:link { a:link {color: gray;} /* unvisited link */
-            a:visited {color: green;}  /* visited link */
-            a:hover {color: hotpink;}  /* mouse over link */
-            a:active {color: blue;}    /* selected link */
-		    a:link {background-color: yellow;}
-		    }
-
-    form-control { border-radius: 0; }
-  
-    textarea { resize: none; }
-	    
-    container { padding: 80px 120px; }
-    
-	
-	modal-header, close { background-color: #333333; /* cinza escuro */
-	                      color: #ffffff !important; /* branco */
-	                      text-align: center; 
-						  font-size: 30px; 
-						  }
-								
-    modal-header, modal-body { padding: 40px 50px; }
-  	
-	
-    col-sm-4 { text-align: center; 
-	           margin: 25px 0;
-			   }
-	
-    btn-lg { width: 100%; 
-	         margin-bottom: 35px; 
-			 }
-	
-    logo { font-size: 150px; }
-    
-
     footer { font-size: normal; 
 	         font-weight: 300; 
 	         font-family: Times New Roman, Times, serif; }
@@ -128,95 +93,90 @@
     /* CSS / Background Image Responsive */ 
 	image, img { background: #2d2d30; /* cor cinza muito escuro   */ 
 	             color: #bdbdbd; /* cor cinza prata */
-                 font-size: small;
-		         font-weight: 100;
+                     font-size: small;
+		     font-weight: 100;
 	             margin:0; 
 	             padding:0; 
-				 position: absolute; 
-				 width: 100%; 
-				 height: auto; 				  
-				 }
+		     position: absolute; 
+		     width: 100%; 
+		     height: auto; 				  
+		     }
 			  
 	.background background-image { background: #cccccc;
 	                               color: #0B293E; /* azul escuro */
 	                               background-image: url("motion/Clouds_5.mp4"); /* url("img/bg_gradiente.png"); */
-                                   background-image: inherit;
+                                       background-image: inherit;
 	                               background-repeat: repeat-y;  /* no-repeat; */
-								   background-size: 100% 100% 100%; 
-								   background-color: transparent; 
-								   min-width: 10%; 
-								   max-width: 100%; 
-								   min-height: 10%; 
-								   height: auto;  
-								   overflow-x: hidden;
-								   position: relative; 
-								   border: 0px solid silver;
-                                   font-size: small;
-		                           font-weight: 100;								   
-								   opacity: 0.9; 
-								   top:0; 
-								   bottom:0;
-	                               left:0; 
-	                               right:0; 
-								   margin:0; 
-								   padding:0; 
-								   }
+					background-size: 100% 100% 100%; 
+					background-color: transparent; 
+					min-width: 10%; 
+					max-width: 100%; 
+					min-height: 10%; 
+					height: auto;  
+					overflow-x: hidden;
+					position: relative; 
+					border: 0px solid silver;
+                                        font-size: small;
+		                        font-weight: 100;								   
+				        opacity: 0.9; 
+					top:0; 
+					bottom:0;
+	                                left:0; 
+	                                right:0; 
+					margin:0; 
+					padding:0; 
+					}
 		
     .img thumbnail { background: #9F00FF;  /* cor violeta médio royal */
-	                 color: #ffffff; /* cor branco */
-	                 font-size: xl;  /* xl = fonte com tamanho muito grande */
-		             font-weight: 900;	/* grossura da fonte */							   
-				     opacity: 0.9; 
-	                 width:0;  
-				     height:0;
+	             color: #ffffff; /* cor branco */
+	             font-size: xl;  /* xl = fonte com tamanho muito grande */
+		     font-weight: 900;	/* grossura da fonte */							   
+		     opacity: 0.9; 
+	             width:0;  
+		     height:0;
                      margin:0;				 
-				     padding:0;
-				     border: none;  
-				     margin:0; 
-				     margin-bottom:0; 
-			         margin-top:0; 
-				     margin-left:0; 
-				     margin-right:0; }
-
-
+		     padding:0;
+		     border: none;  
+		     margin:0; 
+		     margin-bottom:0; 
+		     margin-top:0; 
+		     margin-left:0; 
+		     margin-right:0; 
+	             }
+	    
 /* ================================================================================ */
 	
     /* Wrapper / Embrunho / Centering the page */
-    wrapper { margin:0; 
-	          padding:0; 
-			  max-width: 60em; 
-			  min-width: 50%;
-			  }
-	
-	
-	/* Jumbotron / Titulo de página em tamanho gigante centralizado */
+    wrapper { margin:0; padding:0; max-width: 60em; min-width: 50%; }
+		
+    /* Jumbotron / Titulo de página em tamanho gigante centralizado */
     jumbotron { font-size: xl;  /* xl = fonte com tamanho muito grande */
-		        font-weight: 900;	/* grossura da fonte */
+		font-weight: 900; /* grossura da fonte */
                 margin: 10px auto; 
-				padding: 50px auto; 
-				max-width: 60em;
+		padding: 50px auto; 
+		max-width: 60em;
                 position: center;				 
-				}	
+		}	
 	
 /* ================================================================================ */
 													
     :root { font-size: calc(1vw + 1vh + .2vmin); }
 	
     person { border: 10px solid transparent; 
-	         margin-bottom: 25px; 
-			 width: 80%; 
-	         height: 80%; 
-			 opacity: 0.7; 
-			 }
+	     margin-bottom: 25px; 
+	     width: 80%; 
+	     height: 80%; 
+	     opacity: 0.7; 
+	     }
 			 
     person:hover { border-color: #f1f1f1; /* branco escuro */ }
       
       
     /* Google Maps */
     #google-maps { width: 100%; height: 400px; 
-	               -webkit-filter: grayscale(100%); 
-	               filter: grayscale(100%); 
-				   } 
+	           -webkit-filter: grayscale(100%); 
+	           filter: grayscale(100%); 
+		   } 
       
 /* ================================================================================ */
 
