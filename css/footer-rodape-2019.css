@@ -1,0 +1,20 @@
+
+<style>
+
+    /* CSS / Footer / Rodapé */
+
+    footer { background-color: #2d2d30; /* cinza muito escuro */
+	         color: #f5f5f5; /* cinza claro */ 
+			 padding: 32px; }
+	
+    footer a { color: #f5f5f5; } /* cinza claro */
+	
+    footer a:hover { color: #777777; /* cinza medio */ 
+	                 text-decoration: none; }
+	
+	footer glyphicon { font-size: 20px; margin-bottom: 20px; 
+	                   color: #f4511e; } /* laranja */
+  
+    /* Fim do CSS */
+
+</style>

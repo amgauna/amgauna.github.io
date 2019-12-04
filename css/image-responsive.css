@@ -1,0 +1,54 @@
+<style>	
+           						
+	/* CSS / Background Image Responsive */ 
+
+	/*  Background Image / CSS / Bootstrap */
+    /* Responsive webdesign images resize the browser windows to see how the 
+	   image scales to fit the page.  */
+	   
+    /* Background images responsive / The image used */				
+	body { width:"100%"; height:"100%"; align:"center";  /* Full height=100%  */
+	       background-image: url("../motion/motion2018-violeta.jpg");
+ 	       /* Backgroung images responsive / Center and scale the image nicely */
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-position: center; 
+   	       background-size: 100% 100%;  /* = "cover" or "100% 100%" or "contain"  */
+          }	
+
+	
+    .bg, .background, .background-image { left:0; right:0; margin:0; padding:0px; 
+	            min-width: 10%; max-width:100%; min-height: 10%; height: auto; 
+				top:0; bottom:0; position:relative; border: 0px solid silver;	
+				background-repeat: no-repeat; background-size: 0;
+		        background-color:gray; background:transparent; 
+			    background-image: url("/motion/Clouds_5.mp4");
+                background-image: inherit; opacity: 0.9; }
+						
+	bg { background: #2d2d30; /* cinza muito escuro */ 
+	     color: #bdbdbd; /* cinza prata */ }
+		  
+    bg h3 {color: #fff;}  /*color:#fff = branco escuro */
+	
+    bg p {font-style: italic;}
+
+    thumbnail { width:0; padding:0; weight:0; border: none; border-radius: 0; }
+	
+    thumbnail p { margin-top: 0; color: #555; } /* cinza medio */ 
+	
+    thumbnail img { width: 0; height: 0; margin-bottom: 0; margin-top:0;
+	                 margin-left: 0; margin-right: 0; margin: 0; }    
+						
+	image, img, bg { background: #2d2d30; /* cinza muito escuro   */ 
+	                 color: #bdbdbd; /* cinza prata */ }
+				 	
+	p { font-size: 12px; font-style: italic; line-height:1.2; } 
+
+    thumbnail { width:0; padding:0; height:0; border: none; border-radius: 0; 
+	                       color: #555; /* cinza medio */ margin:0; margin-bottom: 0; 
+					       margin-top:0; margin-left: 0; margin-right: 0; }
+	/* Fim Background Image */ 
+
+    /* Fim do CSS */
+
+</style>

@@ -1,0 +1,368 @@
+<style>
+
+    /* Style CSS / Navigation Navbar / Menu Bootstrap 3.3.7  */	
+	  
+/* ================================================================================ */
+
+    /* CSS / Style cores padrão */
+	/* color: #fffddd; /* cor amarelo claro */
+	/* color: #f4511e; /* cor laranja escuro */
+    /* color: #9F00FF; /* cor violeta médio royal */
+    /* color: #c71585; /* cor rosa médio royal */
+    /* color: #fa0fa0; /* cor rosa choque */
+    /* color: #fa0000; /* cor vermelho */
+    /* color: #700000; /* cor vermelho escuro margenta */	
+	/* color: #D6EFFF; /* cor azul muito claro */
+	/* color: #005aff; /* cor azul royal */
+	/* color: #03ADDF; /* cor azul médio */
+	/* color: #4CAF50; /* cor verde limão */ 
+	/* color: #005f5f; /* cor verde escuro */
+	/* color: #f2f2f2; /* cor cinza prata muito claro */
+	/* color: #d5d5d5; /* cor cinza prata claro */
+	/* color: #bbbbbb; /* cor cinza prata claro */
+	/* color: #777777; /* cor cinza escuro */
+	/* color: #444444; /* cor cinza muito escuro */
+	/* color: #2d2d30; /* cor cinza muito escuro */
+	/* color: #273b49; /* cor cinza azulado escuro */
+	/* color: #111111; /* cor preto /*
+	/* color: #000000; /* cor preto /*
+
+
+/*  Navbars vem com suporte integrado para um punhado de sub-componentes. 
+	Escolha entre os seguintes, sempre que precisar:
+    .navbar-brand para o nome de seu projeto, produto ou companhia;
+    .navbar-nav para obter uma leve navegação com suporte a dropdowns;
+    .navbar-toggler para usar com nosso plugin collapse e outros comportamentos;
+    .form-inline para qualquer campo de formulário e ações;
+    .navbar-text para adicionar texto centralizado verticalmente;
+    .collapse .navbar-collapse para agrupar e esconder conteúdos navbar, 
+	de acordo com o breakpoint do pai.
+		  
+	Navbars são responsivas por default. Navbars precisam de um .navbar com 
+	.navbar-expand{-sm|-md|-lg|-xl} (para responsividade) 
+	e classes do esquema de cores;	 
+	Garanta acessibilidade com o elemento <nav> ou, se estiver usando um elemento
+	mais genérico (como <div>), coloque role="navigation" em cada navbar para
+	identificá-lo como tal, em tecnologias assistivas. 
+*/
+
+	
+ /* ================================================================================ */		
+	
+ /* zerando o margin e padding para todos os navegadores, colocaremos um
+    estilo de texto para o nosso texto do menu e removeremos os bullets 
+    da lista. Depois vamos definir uma borda e colocaremos o float:"left";
+    para que as bordas fiquem certinhas
+ */
+ 
+    *{margin: 0; padding: 0;}
+ 
+    body{ font-family: arial, helvetica, sans-serif;
+          font-size: 14px; background-color:#999999;
+        }
+
+
+	
+    /* LINKS  */
+							   
+	a { font-family: monospace;
+        font-size: 3vh; 
+		color: #005aff; /* cor azul royal */
+		border-bottom:3px solid #EA0000;  /* vermelho */
+	    text-decoration: none; 
+	    text-align: center;
+		padding: 2vw; 		
+		display: block; 
+		float: left; 
+	    }
+
+	/*  remove the bullets and the margins and padding from the list */	
+	ul { list-style-type: none; margin: 0; padding: 0; }
+	li { list-style-type: none; margin: 0; padding: 0; }
+	
+	/* Add a color to the current link */
+	a:visited { background-color: #f2f2f2; /* cor cinza prata muito claro */ 
+      	        color: #700000; }  /* cor vermelho escuro margenta */
+	
+    a:hover { background-color: #005f5f; /* cor verde escuro */  /* hover = flutuar */
+	          color: #f4511e; } /* laranja */
+			  
+    a:active { background-color: #fffddd;	/* amarelo */
+	           color: #9F00FF; } /* violeta escuro */
+			   
+	a:focus { background-color: #ffffff; /* branco */
+	          color: #444444; } /* cinza escuro  */	
+	
+/* ================================================================================ */
+	
+	/* 	NAVBAR NAVIGATION  / MOBILE MENU RESPONSIVE */ 
+				
+	nav { background-color: #f2f2f2; /* cor cinza prata muito claro */
+		  margin-right: 2.9em; 
+		  margin-left: 2.9em;
+          margin-top: 7.5px;		  
+          margin-bottom: 10px; 		  
+		  padding:10px; 
+		  width: 100%; 
+          height: auto; 
+          max-width: 100%; 
+		  min-width: 10%;		  
+		  display: inline-block; 
+          border: 1;		  
+		  border-radius: 1; 
+		  z-index: 100%; 
+		  float: none!important; 
+		  position:relative; 
+		  cursor: pointer; 
+		  overflow: hidden; 
+		  }
+		  
+		  
+    navbar { font-family: Montserrat, Helvetica, sans-serif; 
+	         font-size: 1.5em; 
+		     font-weight:auto;
+			 list-style:none;
+	         color: #273b49; /*cor cinza azulado escuro */ 
+		     list-style: none; 
+		     text-align: center; 
+		     text-decoration: none; 
+		     line-height: 1.42857143 !important; 
+		     letter-spacing: normal; 
+		     word-spacing: normal;			 
+			 border-radius: 1px; 
+			 left:5px; 
+			 right:5px; 
+			 top:5px; 
+			 bottom:5px; 
+	         }
+
+
+	navbar-fixed-top { background: #ffffff; /*  branco */
+					   border-width: 0 0 1px;
+	                   position: fixed; 
+	                   top: 0; 
+					   width:100%;  
+					   }
+	
+	
+	navbar-default { display: inline-block; }
+			
+	navbar-header { float: none !important;}	
+	
+    navbar-brand { float: none !important; 
+	               font-size: 8px; 
+				   color: #005aff; /* cor azul royal */
+                   }
+				   
+	navbar-left, navbar-right { float: normal !important;}
+	
+	navbar x-nav, x-navbar a {font-size: 20px;} /* tamanho grande */
+    navbar x-nav, x-navbar > li > a {font-size: 20px;}  	
+
+				 
+ /* ================================================================================ */
+
+	/*  NAVBAR LINK <UL> <LI> <A>  */
+	
+	navbar ul li { display: inline-block; 
+	               margin-top: 0px;
+				   padding: 1em; 
+	               padding-top: .36em; 
+	               padding-right: .15em; 
+				   padding-left: .15em;
+                   list-style: none;
+				   width: 100%;
+                   float: none!important;  				   
+			       overflow: auto;
+                   } 
+		
+		
+    navbar ul li a { background-color: #f4511e !important; /* laranja */ 
+	                 color: #444444; /* cinza escuro */ 
+	                 text-decoration: none; 
+			         text-align: center; 
+			         display: inline; 
+                     margin-top: 1em; 
+					 padding: .60em;
+                     margin-right: -4px;			 
+			         list-style: none; 
+			         font-family: 'Oswald', sans-serif; 
+			         font-size: 1.2em; 
+                     line-height: 40px; 
+			         height: 40px; 
+			         border-radius: 1em; 
+			         border: 1px solid #888888; 
+			         width: 120px; 
+			         height: 50px; 
+			         float: left; 
+	                 }
+			 							
+										
+ /* ================================================================================ */
+
+    /*  LINK <NAVBAR> <LI> <A> VISITED / ACTIVE / FOCUS / HOVER (flutuar) */	
+   	
+    navbar ul li a:visited { background-color: #f2f2f2; /* cor cinza prata muito claro */ 
+      	                     color: #700000; }  /* cor vermelho escuro margenta */
+				
+    navbar ul li a:active { background-color: #fffddd;	/* amarelo */
+	                        color: #9F00FF; } /* violeta escuro */
+	
+    navbar ul li a:focus { background-color: #ffffff; /* branco */
+	                       color: #444444; } /* cinza escuro  */
+						   
+	/* estilizar os links com sombra usando propriedade text-shadow e box-shadow */
+	navbar ul li a:hover { background-color: #005f5f; /* verde escuro */ 
+	                       color: #f4511e;  /* laranja */
+						   border-bottom:3px solid #EA0000;  /* vermelho */
+                           text-decoration: none; 
+						   -moz-box-shadow:0 3px 10px 0 #CCC; 
+                           -webkit-box-shadow:0 3px 10px 0 #ccc; 
+                           text-shadow:0px 0px 5px #fff;}								
+		
+/* ================================================================================ */
+
+    /* NAVBAR TOGGLE (alternar barra de navegação) */	
+	
+	toggle, navbar-toggle { display: inline-block; 	
+					        background-color: #555555;  /* cinza médio */
+	                        color: #ffffff;  /* branco */
+	                        overflow: hidden;
+	                        }								  
+   
+	
+/* ================================================================================ */
+
+    /* NAVBAR COLLAPSE (colapso da bara de navegação) */
+			
+	collapse, navbar-collapse { color: #005aff; /* cor azul royal */ 
+	                            border-top: 1px transparent; 
+					            display: none!important;
+	                            box-shadow: inset 0 1px 0 rgba(255,255,255,0.1); 
+					            }  
+								
+    collapse { display: block !important;}
+	
+
+/* ================================================================================ */
+		  		
+    /* NAVBAR DROPDOWN-MENU (submenu suspenso da barra de navegação) */
+
+    /* submenu, definindo a sua posição como absoluta(postition:absolute;),
+       para que os itens do submenu não ultrapassem o seu menu pai e para
+       que ele não interfira no fluxo dos elementos do menu.  */
+	
+	navbar navbar-dropdown { position: sticky;  /* sticky = posição suspensa pegajosa */
+	                         -webkit-border-radius: 6px 0 6px 6px;
+                             -moz-border-radius: 6px 0 6px 6px;
+							 text-shadow:0px 0px 5px #fff;
+					         border-radius: 6px 0 6px 6px; 
+					         top: 0; 
+	                         left: 100%;  
+	                         }
+		
+    navbar navbar-dropdown ul li a:hover{ background:#333; 
+                                          color:#fff; 
+                                          -moz-box-shadow:0 3px 10px 0 #CCC; 
+                                          -webkit-box-shadow:0 3px 10px 0 #ccc; 
+                                          text-shadow:0px 0px 5px #fff; 
+                                          }
+
+    /* submenu, definindo a sua posição como absoluta(postition:absolute;),
+       para que os itens do submenu não ultrapassem o seu menu pai e para
+       que ele não interfira no fluxo dos elementos do menu.  */
+
+    navbar navbar-dropdown li ul { position: absolute;
+                                   background-color:#fffddd; 
+                                   display: inline;
+			                       float: left;
+                                   }   
+
+    /* Exibir o submenu */
+    navbar navbar-dropdown li:hover {float: left;} 
+	navbar navbar-dropdown ul:hover {float: left;}
+
+    navbar navbar-dropdown li ul a{ border:1px solid #c0c0c0;
+                                    position: absolute; 
+                                    display: inline;
+                                    float: left;				
+                                    }
+
+    navbar navbar-dropdown pull-left { float: none; } /* menu flutuante puxado para a esquerda */
+	
+	
+/* ================================================================================ */
+
+    /* Responsive LINK NAVBAR TOPNAV (barra de navegação superior) */
+	
+    /* Add a black background color to the top navigation */
+    navbar topnav, navbar-topnav { background-color: #333333; /* preto */
+	                               overflow: hidden;}
+
+    /* Style the links inside the navigation bar */
+    navbar topnav a { float: left; 
+	                  display: block; 
+					  color: #f2f2f2; /* cor cinza prata muito claro */
+					  text-align: center;
+                      padding: 14px 16px; 
+				      text-decoration: none; 
+				      font-size: 17px;
+					  }
+
+    /* Change the color of links on hover */
+    navbar topnav a:hover { background-color: #dddddd; /* cor cinza prata claro */
+	                        color: #333333; } /* preto */
+
+    /* Add an active class to highlight the current page */	
+    /* Add a color to the active/current link */
+    navbar topnav a:active { background-color: #f1f1f1; /* cor cinza prata branco */
+	                         color: #4CAF50; } /* cor verde */
+
+    /* Hide the link that should open and close the topnav on small screens */
+    navbar topnav icon { display: none; }	
+	
+
+/* ================================================================================ */
+    
+	/* BUTTON BTN / hover = flutuar */
+	
+	button btn { background-color: #333333; /* cinza escuro */ 
+	             color: #f1f1f1; /* branco acizentado */
+				 padding: 0;
+	             border-radius: 0; 
+				 transition: .2s; 
+				 }
+		   
+    button btn:hover { border: 1px solid #444444; /* cinza escuro */
+	                   background-color: #ffffff; /* branco */
+	                   color: #000000;  /* preto */ 
+					   }	   			
+	
+	button btn:focus { border: 1px solid #555555; /* cinza escuro */
+	                   background-color: #000000; /* preto */
+	                   color: #ffffff;  /* branco */ 
+					   }	   			
+	
+	/* tamanho do espaçamento entre os botões */
+	
+	button btn { width: 15%; white-space: small; }
+    button btn primary   { width: 15%; white-space: small; }
+    button btn secundary { width: 15%; white-space: small; }
+	button btn active    { width: 15%; white-space: small; }
+	button btn inverse   { width: 15%; white-space: small; }
+	button btn success   { width: 15%; white-space: small; }
+	button btn info      { width: 15%; white-space: small; }
+	button btn danger    { width: 15%; white-space: small; }
+	button btn warning   { width: 15%; white-space: small; }
+	button btn dark      { width: 15%; white-space: small; }
+	button btn light     { width: 15%; white-space: small; }
+	button btn lg large  { width: 15%; white-space: small; }
+	button btn sm small  { width: 15%; white-space: small; }
+	  
+    /* Fim CSS Button */
+			  
+/* ================================================================================ */
+
+/* Fim do CSS */
+
+</style>

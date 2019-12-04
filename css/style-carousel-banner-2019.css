@@ -1,0 +1,59 @@
+<style>
+
+   /* CSS do Carousel / Banner de imagens */
+
+   /* Use CSS to style the carousel: */  
+   /* Style The Carousel / Use CSS to style the carousel: */  
+   /* Set width to 100% / width: 600px; height: 200px; */  
+
+
+   /* Hide the carousel text when the screen is less than 600 pixels wide */	
+   @media screen and (max-width: 600px) { carousel-caption {display: none;} }
+
+    carousel {width: 100%; height: 100%; }
+		
+	/* Carousel Image / Set width to 100% / width: 600px; height: 200px; */ 
+	carousel-inner img { margin: 0; padding: 10px; width: 50%; height: 50px;
+	                     /* make all photos black and white */
+	                     -webkit-filter: grayscale(0%); filter: grayscale(0%); } 
+	
+    carousel.image { height: 100%; width: auto; display: inline-block; }	
+	
+    carousel-caption h3 { width:100%; height: auto; color: #fff !important; } /* branco */	
+															
+    carousel-indicators li { border-color: #f4511e; } /* laranja escuro */
+	
+    carousel-indicators li.active { background-color: #f4511e; } /* laranja escuro */
+						  
+	carousel-control.right { background-image: none; color: #f4511e; } /* laranja */
+	carousel-control.left  { background-image: none; color: #f4511e; } /* laranja */
+		
+    carousel-control.icon-prev { left:  5px; }
+    carousel-control.icon-next { right: 5px; }
+
+    carousel-control-next { width: 20px; }	
+    carousel-control-prev { width: 20px; }
+
+    carousel-next, carousel-prev { color: #ffffff; /* branco */ cursor: pointer; 
+	        padding: 20px; display: none; position: absolute; top: 50%; z-index: 1;
+			background: rgba(255,255,255,0.15); font-size: 1rem; }
+								   	
+    carousel-prev {left: 0;}
+    carousel-next {right: 0;}
+
+    carousel-prev:after { content: ' << ';  display: inline-block; }
+    carousel-next:after { content: ' >> ';  display: inline-block; }
+		
+    carousel.input { position: absolute; left: -10000px; } 
+
+    carousel.stage { overflow: hidden; font-size: 0; white-space: nowap;
+	                 width: 100%; height: 100%; transition: text-indent 600ms;
+	                 position: relative; }
+
+    carousel.item { display: inline-block; width: 100%; height: 100%; overflow: hidden;
+	                text-indent: 0; opacity: 0.6; text-align: center; }
+							  			
+    /* Fim do CSS Carousel */
+		
+</style>	
+	

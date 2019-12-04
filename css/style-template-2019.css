@@ -1,0 +1,302 @@
+<style>
+
+    /* Style CSS / Folha de Estilo / Template 2019 */
+
+    /* Style CSS / Template Bootstrap 3.3.7 */	
+		
+/* ================================================================================ */
+
+    /* Código de página / Charset = UTF-8 ou ISO-8859-1 */
+    @charset "UTF-8"; 
+	@language "pt-br";						 
+	
+	/* Mobile Display Responsive */
+	@viewport {zoom: 1.0; width: device-width;}
+		
+/* ================================================================================ */
+
+    /* CSS / Style cores padrão */
+	/* color: #f4511e = cor laranja escuro */
+    /* color: #9F00FF = cor violeta médio royal */
+    /* color: #c71585 = cor rosa médio royal */		 
+	/* color: #fffddd = cor amarelo claro */
+	/* color: #005aff = cor azul royal */
+	/* color: #bbbbbb =	cor  cinza prata */
+	/* color: #2d2d30 = cor cinza muito escuro */
+	/* color: #4CAF50 = cor verde limão */ 
+	/* color: #777777 = cor cinza escuro */
+	/* color: #273b49 = cinza azulado escuro */
+
+	
+/* ================================================================================ */
+	
+	/* Mobile Display Responsive / Mobile html font-size:100% */
+	
+    /* For mobile phones / Celular / min-width = 60em */ 
+    @media screen and (min-width:60em) 
+	{ html { margin:0; font-size: small; font-weight: 100; width: 100%; z-index: 100%;}
+	  body { background-color: #ffffff; color: #000000;} 
+	     }
+ 
+    /* Small devices (tablets, 768px and up) */
+    @media screen and (min-width: @screen-sm-min) and (max-width: @screen-sm-max) 
+	{ html { margin:0; font-size: normal; font-weight: 200; width: 100%; z-index: 100%;} 
+	  body { background-color: #ffffff; color: #000000;}
+	     }
+	
+	/* Medium devices (desktops, 992px and up) */
+    @media screen and (min-width: @screen-md-min) and (max-width: @screen-md-max) 
+    { html { margin:0; font-size: medium; font-weight: 300; width: 100%; z-index: 100%;} 
+	body { background-color: #ffffff; color: #000000; }
+	     }
+		
+    /* Large devices (large desktops, 1200px and up) */
+    @media screen and (min-width: @screen-lg-min) 
+	{ html { margin:0; font-size: large; font-weight: 400; width: 100%; z-index: 100%;}
+      body { background-color: #ffffff; color: #000000; }	
+	     }
+	
+/* ================================================================================ */
+		    		 
+	/* Mobile Display Responsive / html font-size:100% / font-size:12px */
+	
+	*{ margin: 0; padding: 0px; box-sizing: border-box; }
+	*{ box-sizing: border-box; /* Setting the box-size border-box */ }
+	
+	html { width: 100%; 
+	       height: 100%; 
+		   margin: 0; 
+		   padding:0;
+	       background-color: #ffffff; /* cor branco cinza claro */
+	       font-family: Georgia, Helvetica, Serif; 
+		   font-size: medium; 
+		   z-index: 100%;
+		   } 
+		 
+    main { padding: 0px; 
+	       height: 100%; 
+		   background-color: #273b49; /* cinza azulado escuro */
+		   color: #ffffff /* branco */
+		   } 
+                         	
+	body { background-color: #ffffff; /* branco */
+	       color: #000000; /* preto */
+	       text-decoration: none; 
+	       }
+	
+    /* Styling the header */	
+    header { background-color: #cccccc; /* cinza prata */
+	         color: #111111; /* preto */
+	         margin-top: 0; 
+			 padding: 25em; 
+			 width: 100%; 
+			 display: flex;
+			 text-align: center; 
+			 border-bottom: 1px solid;
+			 text-align: left; 
+			 line-height: 90px;
+			 position: fixed; 
+			 }
+	
+	header h1 { margin-top: 0; 
+	            padding: .25em; 
+	            text-align: center; 
+	            display: inline;
+				}
+	
+	header {display: inline-block;}			
+
+    article, blockquote { font-size: medium; 
+	                      font-weight: 300; 
+	                      font-family: Verdana, Georgia, sans-serif; 
+	                      margin: 0; 
+						  padding: 1rem 3rem; 
+						  display: inline;
+						  } 
+						  
+	div, span { font-size: normal; font-weight: 300; }
+	            
+
+    /* For mobile font-size=normal with space between characters */
+     				  		
+	p { font-size: normal; 
+	    font-style: italic;
+	    font-weight: 200; /* peso da fonte */
+	    line-height:1.2;  /* altura da linha */
+	    margin: 10px; 
+		letter-spacing: 10px; /* space between characters */
+		color: #111111; /* preto */
+		} 
+	
+    p.normal  {font-size: normal; font-weight: normal; }
+	p.thick   {font-weight: bold; } /* thick = fonte grossa */
+	p.thicker {font-weight: 900; }  /* thicker = fonte mais grossa */
+	
+	
+    h1 { font-size: xx-large; font-weight: 500; } 
+    h2 { font-size: x-large;  font-weight: 400; }
+	h3 { font-size: large;    font-weight: 300; }
+	h4 { font-size: medium;   font-weight: 200; }
+	h5 { font-size: small;    font-weight: 100; }
+	h6 { font-size: x-small;  font-weight: 100; }
+	h7 { font-size: xx-small; font-weight: 100; }
+	
+
+    h1 { background-color: #3b3b3b;
+         color: #ddd;
+         padding: 15px auto;	
+         text-align: center;
+         }
+    
+    h2 { border-top: 1px solid #ccc;
+         border-bottom: 3px solid #cccccc; /* cinza prata medio */
+         background-color: #DDDDDD; /* cinza prata claro */
+         padding-left: 5px;
+         font-weight: normal;
+         text-align: center;
+         }
+	
+	h4 { font-weight: normal;
+         text-align: justify;
+         padding-left: 5px;
+         }
+
+    /* Links Color */
+	:link { a:link {color: gray;} /* unvisited link */
+            a:visited {color: green;}  /* visited link */
+            a:hover {color: hotpink;}  /* mouse over link */
+            a:active {color: blue;}    /* selected link */
+		    a:link {background-color: yellow;}
+		    }
+
+    form-control { border-radius: 0; }
+  
+    textarea { resize: none; }
+	    
+    container { padding: 80px 120px; }
+    
+	
+	modal-header, close { background-color: #333333; /* cinza escuro */
+	                      color: #ffffff !important; /* branco */
+	                      text-align: center; 
+						  font-size: 30px; 
+						  }
+								
+    modal-header, modal-body { padding: 40px 50px; }
+  	
+	
+    col-sm-4 { text-align: center; 
+	           margin: 25px 0;
+			   }
+	
+    btn-lg { width: 100%; 
+	         margin-bottom: 35px; 
+			 }
+	
+    logo { font-size: 150px; }
+    
+
+    footer { font-size: normal; 
+	         font-weight: 300; 
+	         font-family: Times New Roman, Times, serif; }
+				 						
+/* ================================================================================ */
+			
+    /* CSS / Background Image Responsive */ 
+	image, img { background: #2d2d30; /* cor cinza muito escuro   */ 
+	             color: #bdbdbd; /* cor cinza prata */
+                 font-size: small;
+		         font-weight: 100;
+	             margin:0; 
+	             padding:0; 
+				 position: absolute; 
+				 width: 100%; 
+				 height: auto; 				  
+				 }
+			  
+	.background background-image { background: #cccccc;
+	                               color: #0B293E; /* azul escuro */
+	                               background-image: url("motion/Clouds_5.mp4"); /* url("img/bg_gradiente.png"); */
+                                   background-image: inherit;
+	                               background-repeat: repeat-y;  /* no-repeat; */
+								   background-size: 100% 100% 100%; 
+								   background-color: transparent; 
+								   min-width: 10%; 
+								   max-width: 100%; 
+								   min-height: 10%; 
+								   height: auto;  
+								   overflow-x: hidden;
+								   position: relative; 
+								   border: 0px solid silver;
+                                   font-size: small;
+		                           font-weight: 100;								   
+								   opacity: 0.9; 
+								   top:0; 
+								   bottom:0;
+	                               left:0; 
+	                               right:0; 
+								   margin:0; 
+								   padding:0; 
+								   }
+		
+    .img thumbnail { background: #9F00FF;  /* cor violeta médio royal */
+	                 color: #ffffff; /* cor branco */
+	                 font-size: xl;  /* xl = fonte com tamanho muito grande */
+		             font-weight: 900;	/* grossura da fonte */							   
+				     opacity: 0.9; 
+	                 width:0;  
+				     height:0;
+                     margin:0;				 
+				     padding:0;
+				     border: none;  
+				     margin:0; 
+				     margin-bottom:0; 
+			         margin-top:0; 
+				     margin-left:0; 
+				     margin-right:0; }
+
+
+/* ================================================================================ */
+	
+    /* Wrapper / Embrunho / Centering the page */
+    wrapper { margin:0; 
+	          padding:0; 
+			  max-width: 60em; 
+			  min-width: 50%;
+			  }
+	
+	
+	/* Jumbotron / Titulo de página em tamanho gigante centralizado */
+    jumbotron { font-size: xl;  /* xl = fonte com tamanho muito grande */
+		        font-weight: 900;	/* grossura da fonte */
+                margin: 10px auto; 
+				padding: 50px auto; 
+				max-width: 60em;
+                position: center;				 
+				}	
+	
+/* ================================================================================ */
+													
+    :root { font-size: calc(1vw + 1vh + .2vmin); }
+	
+    person { border: 10px solid transparent; 
+	         margin-bottom: 25px; 
+			 width: 80%; 
+	         height: 80%; 
+			 opacity: 0.7; 
+			 }
+			 
+    person:hover { border-color: #f1f1f1; /* branco escuro */ }
+      
+      
+    /* Google Maps */
+    #google-maps { width: 100%; height: 400px; 
+	               -webkit-filter: grayscale(100%); 
+	               filter: grayscale(100%); 
+				   } 
+      
+/* ================================================================================ */
+
+/* Fim do CSS */
+
+</style>

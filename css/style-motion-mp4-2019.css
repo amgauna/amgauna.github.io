@@ -1,0 +1,62 @@
+<style>
+
+/* CSS do background / Video / Motion / MP4 */
+	
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo , .video img { position: fixed; right: 0; bottom: 0; 
+	                    width: 100%; height: 90%; } 
+	
+/* Add some content at the bottom of the video/page */
+.content { position: fixed; bottom: 0; background: rgba(0, 0, 0, 0.5);
+	       color: #f1f1f1; width: 100%; padding: 20px; } 
+						
+.bg_video { width: 100% auto; height: 100% auto;  position: fixed; 
+	        right: 0; bottom: 0; z-index: -1000;
+	        min-width: 100%; max-width: 100% 100% auto;
+		    min-height: 100%; max-height: 100% 100% auto;
+			background-size: cover auto; background: url() repeat; }					
+	           							
+/* video / Ajuste a largura e altura desejadas aqui*/
+.wrap { width: 800px; height: 300px; position: relative; }
+
+/* apenas um -1 é necessário quando se trabalha com relative + absolute, 
+   sendo pai e filho*/
+.wrap > .bg-video { position: absolute; top: 0; left: 0; z-index: -1; 
+	                width: 100%; height: 100%; overflow: hidden; }
+			   /* evita do video passar a altura desejada do .wrap */ 
+	
+.wrap > .bg-video > .video { width: 100%; }
+
+.parent-element-to-video { overflow: hidden; position: relative; }
+	                           /* position = relative or absolute or fixed */ 
+			 
+.video { left: 50%; min-height: 50%; min-width: 50%; position: absolute; top: 50%;
+         transform: translate(-50%, -50%); height: 100%; width: 100%; top:50%;
+         min-width: 10%; min-height: 56.25vw; }
+	
+.video-container { position: absolute; top: 0; bottom: 0; 
+	               width: 100%; height: 100%; overflow: hidden; }
+
+/* Make video to at least 100% wide and tall */
+/* Setting width & height to auto prevents the browser from stretching 
+   or squishing the video */
+.video-container , .video { min-width:10%; min-height:10%; width:auto; height:auto; 
+            position:absolute; top:50%; left:50%; transform: translate(-50%,-50%); }
+
+.overlay { background:rgba(0,0,0,0.5); position:absolute; bottom:0; margin-bottom:0; 
+           left:0; right:0; width:95%; max-width:45em; margin: auto auto 1em;
+	       box-sizing: border-box; padding: 2em; line-height:1.5; text-align:center; }
+	
+.vignette { background-color: rgba(0, 0, 0, 0.6); height: 100%; left: 0;
+            position: fixed; top: 0; width: 100%; z-index: 1; }
+	
+	
+/* Style the button used to pause/play the video */
+#myBtn { width: 200px; font-size: 18px; padding: 10px; border: none;
+             background-color: #000000; color: #ffffff; cursor: pointer; }
+
+#myBtn:hover { background-color: #dddddd; color: black; }
+
+/* Fim do CSS */
+
+</style>
