@@ -1,24 +1,23 @@
 <style>
 
     /* Style CSS / Folha de Estilo / Template 2019 */
-
     /* Style CSS / Template Bootstrap 3.3.7 */	
 		
 /* ================================================================================ */
 
     /* Código de página / Charset = UTF-8 ou ISO-8859-1 */
     @charset "UTF-8"; 
-	@language "pt-br";						 
+    @language "pt-br";						 
 	
-	/* Mobile Display Responsive */
-	@viewport {zoom: 1.0; width: device-width;}
+    /* Mobile Display Responsive */
+    @viewport {zoom: 1.0; width: device-width;}
 		
 /* ================================================================================ */
 
-    /* CSS / Style cores padrão */
-	/* color: #f4511e = cor laranja escuro */
-    /* color: #9F00FF = cor violeta médio royal */
-    /* color: #c71585 = cor rosa médio royal */		 
+        /* CSS / Style cores padrão */
+        /* color: #f4511e = cor laranja escuro */
+        /* color: #9F00FF = cor violeta médio royal */
+        /* color: #c71585 = cor rosa médio royal */		 
 	/* color: #fffddd = cor amarelo claro */
 	/* color: #005aff = cor azul royal */
 	/* color: #bbbbbb =	cor  cinza prata */
