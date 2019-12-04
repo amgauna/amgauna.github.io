@@ -58,22 +58,18 @@
     *{margin: 0; padding: 0;}
  
     body{ font-family: arial, helvetica, sans-serif; font-size: medium;
-          background-color:#f1f1f1; color: #000000;
-        }
-
+          background-color:#f1f1f1; color: #000000; }
 
 	
     /* LINKS  */
 							   
 	a { font-family: monospace;
-        font-size: 3vh; 
-		color: #005aff; /* cor azul royal */
-		border-bottom:3px solid #EA0000;  /* vermelho */
+            color: #005aff; /* cor azul royal */
+	    border-bottom:3px solid #EA0000;  /* vermelho */
 	    text-decoration: none; 
 	    text-align: center;
-		padding: 2vw; 		
-		display: block; 
-		float: left; 
+	    display: block; 
+	    float: left; 
 	    }
 
 	/*  remove the bullets and the margins and padding from the list */	
@@ -94,53 +90,47 @@
 	/* 	NAVBAR NAVIGATION  / MOBILE MENU RESPONSIVE */ 
 				
 	nav { background-color: #f2f2f2; /* cor cinza prata muito claro */
-		  margin-right: 2.9em; 
-		  margin-left: 2.9em;
-          margin-top: 7.5px;		  
-          margin-bottom: 10px; 		  
-		  padding:10px; 
-		  width: 100%; 
-          height: auto; 
-          max-width: 100%; 
-		  min-width: 10%;		  
-		  display: inline-block; 
-          border: 1;		  
-		  border-radius: 1; 
-		  z-index: 100%; 
-		  float: none!important; 
-		  position:relative; 
-		  cursor: pointer; 
-		  overflow: hidden; 
-		  }
+	      margin-right: 1%; 
+	      margin-left: 1%;
+              margin-top: 1%;		  
+              margin-bottom: 1%; 		  
+	      padding: 10px; 
+              height: auto; 
+              max-width: 100%; 
+	      min-width: 10%;		  
+	      display: inline-block; 
+	      border-radius: 1; 
+	      z-index: 100%; 
+	      float: none!important; 
+	      position: relative; 
+	      /* overflow: hidden; */
+	      }
 		  
 		  
-    navbar { font-family: Montserrat, Helvetica, sans-serif; 
-	         font-size: 1.5em; 
-		     font-weight:auto;
-			 list-style:none;
-	         color: #273b49; /*cor cinza azulado escuro */ 
+            navbar { font-size: medium;
+	             color: #273b49; /*cor cinza azulado escuro */ 
 		     list-style: none; 
 		     text-align: center; 
 		     text-decoration: none; 
 		     line-height: 1.42857143 !important; 
 		     letter-spacing: normal; 
 		     word-spacing: normal;			 
-			 border-radius: 1px; 
-			 left:5px; 
-			 right:5px; 
-			 top:5px; 
-			 bottom:5px; 
-	         }
-
+		     border-radius: 1px;
+		     cursor: pointer; 			 
+		     left:5px; 
+		     right:5px; 
+		     top:5px; 
+		     bottom:5px; 
+	             }
 	
-	navbar-default { display: inline-block; }
+	  navbar-default { display: inline-block; }
 			
-	navbar-header { float: none !important;}	
+	  navbar-header { float: none !important;}	
 	
-    navbar-brand { float: none !important; 
-	           font-size: 8px; 
-		   color: #005aff; /* cor azul royal */
-                   }
+          navbar-brand { float: none !important; 
+	                 font-size: 8px; 
+		         color: #005aff; /* cor azul royal */
+                         }
 				   
 	navbar-left, navbar-right { float: normal !important;}
 					 
@@ -161,8 +151,7 @@
                        } 
 		
 		
-    navbar ul li a { background-color: #f4511e !important; /* laranja */ 
-	             color: #444444; /* cinza escuro */ 
+    navbar ul li a { color: #444444; /* cinza escuro */ 
 	             text-decoration: none; 
 		     text-align: center; 
 		     display: inline; 
@@ -207,8 +196,8 @@
     /* NAVBAR TOGGLE (alternar barra de navegação) */	
 	
 	toggle, navbar-toggle { display: inline-block; 	
-					        background-color: #555555;  /* cinza médio */
-	                        color: #ffffff;  /* branco */
+			        background-color: #f1f1f1; /* branco */
+	                        color: #555555;  /* cinza médio */
 	                        overflow: hidden;
 	                        }								  
    
@@ -219,9 +208,9 @@
 			
 	collapse, navbar-collapse { color: #005aff; /* cor azul royal */ 
 	                            border-top: 1px transparent; 
-					            display: none!important;
+				    display: none!important;
 	                            box-shadow: inset 0 1px 0 rgba(255,255,255,0.1); 
-					            }  
+				    }  
 								
     collapse { display: block !important;}
 	
@@ -235,19 +224,20 @@
        que ele não interfira no fluxo dos elementos do menu.  */
 	
 	navbar navbar-dropdown { position: sticky;  /* sticky = posição suspensa pegajosa */
+		                 background: #f1f1f1; color: #000000;
 	                         -webkit-border-radius: 6px 0 6px 6px;
-                             -moz-border-radius: 6px 0 6px 6px;
-							 text-shadow:0px 0px 5px #fff;
-					         border-radius: 6px 0 6px 6px; 
-					         top: 0; 
+                                 -moz-border-radius: 6px 0 6px 6px;
+				 text-shadow:0px 0px 5px #fff;
+			         border-radius: 6px 0 6px 6px; 
+			         top: 0; 
 	                         left: 100%;  
 	                         }
 		
-    navbar navbar-dropdown ul li a:hover{ background:#333; 
-                                          color:#fff; 
-                                          -moz-box-shadow:0 3px 10px 0 #CCC; 
-                                          -webkit-box-shadow:0 3px 10px 0 #ccc; 
-                                          text-shadow:0px 0px 5px #fff; 
+    navbar navbar-dropdown ul li a:hover{ background:#333333; 
+                                          color:#ffffff;
+                                          -moz-box-shadow:0 3px 10px 0 #CCCCCC; 
+                                          -webkit-box-shadow:0 3px 10px 0 #cccccc; 
+                                          text-shadow:0px 0px 5px #ffffff; 
                                           }
 
     /* submenu, definindo a sua posição como absoluta(postition:absolute;),
@@ -256,13 +246,14 @@
 
     navbar navbar-dropdown li ul { position: absolute;
                                    background-color:#fffddd; 
+	                           color: #000000;
                                    display: inline;
-			                       float: left;
+			           float: left;
                                    }   
 
     /* Exibir o submenu */
     navbar navbar-dropdown li:hover {float: left;} 
-	navbar navbar-dropdown ul:hover {float: left;}
+    navbar navbar-dropdown ul:hover {float: left;}
 
     navbar navbar-dropdown li ul a{ border:1px solid #c0c0c0;
                                     position: absolute; 
@@ -278,17 +269,16 @@
     /* Responsive LINK NAVBAR TOPNAV (barra de navegação superior) */
 	
     /* Add a black background color to the top navigation */
-    navbar topnav, navbar-topnav { background-color: #333333; /* preto */
-	                               overflow: hidden;}
+    navbar topnav, navbar-topnav { background-color: #333333; /* preto */ }	                       
 
     /* Style the links inside the navigation bar */
     navbar topnav a { float: left; 
-	                  display: block; 
-					  color: #f2f2f2; /* cor cinza prata muito claro */
-					  text-align: center;
+	              display: block; 
+		      color: #f2f2f2; /* cor cinza prata muito claro */
+		      text-align: center;
                       padding: 14px 16px; 
-				      text-decoration: none; 
-				      font-size: 17px;
+		      text-decoration: none; 
+		      font-size: medium;
 					  }
 
     /* Change the color of links on hover */
@@ -310,26 +300,26 @@
 	
 	button btn { background-color: #333333; /* cinza escuro */ 
 	             color: #f1f1f1; /* branco acizentado */
-				 padding: 0;
+		     padding: 0;
 	             border-radius: 0; 
-				 transition: .2s; 
-				 }
+		     transition: .2s; 
+		     }
 		   
     button btn:hover { border: 1px solid #444444; /* cinza escuro */
-	                   background-color: #ffffff; /* branco */
-	                   color: #000000;  /* preto */ 
-					   }	   			
+	               background-color: #ffffff; /* branco */
+	               color: #000000;  /* preto */ 
+			}	   			
 	
 	button btn:focus { border: 1px solid #555555; /* cinza escuro */
 	                   background-color: #000000; /* preto */
 	                   color: #ffffff;  /* branco */ 
-					   }	   			
+			   }	   			
 	
 	/* tamanho do espaçamento entre os botões */
 	
 	button btn { width: 15%; white-space: small; }
-    button btn primary   { width: 15%; white-space: small; }
-    button btn secundary { width: 15%; white-space: small; }
+        button btn primary   { width: 15%; white-space: small; }
+        button btn secundary { width: 15%; white-space: small; }
 	button btn active    { width: 15%; white-space: small; }
 	button btn inverse   { width: 15%; white-space: small; }
 	button btn success   { width: 15%; white-space: small; }
