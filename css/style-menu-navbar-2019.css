@@ -132,67 +132,53 @@
 			 bottom:5px; 
 	         }
 
-
-	navbar-fixed-top { background: #ffffff; /*  branco */
-					   border-width: 0 0 1px;
-	                   position: fixed; 
-	                   top: 0; 
-					   width:100%;  
-					   }
-	
 	
 	navbar-default { display: inline-block; }
 			
 	navbar-header { float: none !important;}	
 	
     navbar-brand { float: none !important; 
-	               font-size: 8px; 
-				   color: #005aff; /* cor azul royal */
+	           font-size: 8px; 
+		   color: #005aff; /* cor azul royal */
                    }
 				   
 	navbar-left, navbar-right { float: normal !important;}
-	
-	navbar x-nav, x-navbar a {font-size: 20px;} /* tamanho grande */
-    navbar x-nav, x-navbar > li > a {font-size: 20px;}  	
-
-				 
+					 
  /* ================================================================================ */
 
 	/*  NAVBAR LINK <UL> <LI> <A>  */
 	
 	navbar ul li { display: inline-block; 
 	               margin-top: 0px;
-				   padding: 1em; 
+		       paddig: 1em; 
 	               padding-top: .36em; 
 	               padding-right: .15em; 
-				   padding-left: .15em;
-                   list-style: none;
-				   width: 100%;
-                   float: none!important;  				   
-			       overflow: auto;
-                   } 
+		       padding-left: .15em;
+                       list-style: none;
+		        width: 100%;
+                       float: none!important;  				   
+		       overflow: auto;
+                       } 
 		
 		
     navbar ul li a { background-color: #f4511e !important; /* laranja */ 
-	                 color: #444444; /* cinza escuro */ 
-	                 text-decoration: none; 
-			         text-align: center; 
-			         display: inline; 
+	             color: #444444; /* cinza escuro */ 
+	             text-decoration: none; 
+		     text-align: center; 
+		     display: inline; 
                      margin-top: 1em; 
-					 padding: .60em;
+		     padding: .60em;
                      margin-right: -4px;			 
-			         list-style: none; 
-			         font-family: 'Oswald', sans-serif; 
-			         font-size: 1.2em; 
+		     list-style: none; 
+		     font-family: 'Oswald', sans-serif; 
+		     font-size: 1.2em; 
                      line-height: 40px; 
-			         height: 40px; 
-			         border-radius: 1em; 
-			         border: 1px solid #888888; 
-			         width: 120px; 
-			         height: 50px; 
-			         float: left; 
-	                 }
-			 							
+		     height: 40px; 
+		     border: 1px solid #888888; 
+		     width: 120px; 
+		     height: 50px; 
+	             float: left; 
+	             }
 										
  /* ================================================================================ */
 
@@ -202,17 +188,17 @@
       	                     color: #700000; }  /* cor vermelho escuro margenta */
 				
     navbar ul li a:active { background-color: #fffddd;	/* amarelo */
-	                        color: #9F00FF; } /* violeta escuro */
+	                    color: #9F00FF; } /* violeta escuro */
 	
-    navbar ul li a:focus { background-color: #ffffff; /* branco */
-	                       color: #444444; } /* cinza escuro  */
+    navbar ul li a:focus { background-color: #c2c2c2; /* branco */
+	                   color: #f4511e;  } /* laranja */
 						   
-	/* estilizar os links com sombra usando propriedade text-shadow e box-shadow */
-	navbar ul li a:hover { background-color: #005f5f; /* verde escuro */ 
-	                       color: #f4511e;  /* laranja */
-						   border-bottom:3px solid #EA0000;  /* vermelho */
-                           text-decoration: none; 
-						   -moz-box-shadow:0 3px 10px 0 #CCC; 
+     /* estilizar os links com sombra usando propriedade text-shadow e box-shadow */
+     navbar ul li a:hover { background-color: #f1f1f1; 
+	                    color: #005f5f; /* verde escuro */
+			    border-bottom:3px solid #EA0000;  /* vermelho */
+                            text-decoration: none; 
+			   -moz-box-shadow:0 3px 10px 0 #CCC; 
                            -webkit-box-shadow:0 3px 10px 0 #ccc; 
                            text-shadow:0px 0px 5px #fff;}								
 		
