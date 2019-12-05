@@ -10,7 +10,7 @@
 # CSS / Bootstrap 4.1.3
 # Observação1: Incluir o Link do CSS no <HTML> dentro do HEAD logo depois do META. 
 # Observação2: O Bootstrap 4.3.1 funciona programando junto com o PHP 7. Ele não funciona no PHP 5.2
-# <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+# <nocode><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"><nocode>
 #
 # 
 # AJAX / JQUERY / JavaScript / Bootstrap 4.1.3
