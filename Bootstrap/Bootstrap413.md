@@ -10,7 +10,7 @@
 # CSS / Bootstrap 4.1.3
 # Observação1: Incluir o Link do CSS no <HTML> dentro do HEAD logo depois do META. 
 # Observação2: O Bootstrap 4.3.1 funciona programando junto com o PHP 7. Ele não funciona no PHP 5.2
-# <nocode><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"><nocode>
+# link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 #
 # 
 # AJAX / JQUERY / JavaScript / Bootstrap 4.1.3
@@ -25,7 +25,6 @@
 # Observação3: O Bootstrap 4.1.3 funciona utilizando os icones da fonte Awesome
 # Observação4: Incluir o link da fonte Awesome dentro do HTML dentro do HEAD logo depois do META.
 # Observação5: Os icones da fonte Awesome funciona junto com HTML, CSS, Bootstrap e PHP.
-#
-# <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+# link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 #
 
