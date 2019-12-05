@@ -7,8 +7,12 @@
 # https://getbootstrap.com.br/docs/4.1/getting-started/download/
 #
 #
+# Tutorial de Bootstrap 4 (em inglês)
+# https://www.w3schools.com/bootstrap4/default.asp
+#
+# 
 # CSS / Bootstrap 4.1.3
-# Observação1: Incluir o Link do CSS no <HTML> dentro do HEAD logo depois do META. 
+# Observação1: Incluir o Link do CSS no HTML dentro do HEAD logo depois do META. 
 # Observação2: O Bootstrap 4.3.1 funciona programando junto com o PHP 7. Ele não funciona no PHP 5.2
 # link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 #
@@ -16,9 +20,9 @@
 # AJAX / JQUERY / JavaScript / Bootstrap 4.1.3
 # Observação1: Incluir o Link dos Scripts no HTML logo após o BODY.
 # Observação2: O Bootstrap 4.1.3 funciona programando junto com o PHP 7. Ele não funciona no PHP 5.2
-# <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> 
-# <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>  
-# <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+# script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> 
+# script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>  
+# script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 #
 #  
 # Font Awesome Web Application Icons
@@ -27,4 +31,7 @@
 # Observação5: Os icones da fonte Awesome funciona junto com HTML, CSS, Bootstrap e PHP.
 # link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 #
-
+# Relação de Icones que podem ser utilizados junto com o Bootstrap
+# https://www.w3schools.com/icons/fontawesome_icons_intro.asp
+#
+#  
