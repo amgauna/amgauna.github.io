@@ -164,7 +164,7 @@
 				padding-left: 1%;
                 list-style: none;
 				width: 100%;
-                float: none!important;  				   
+                float: left !important;  				   
 			    overflow: auto;
                 } 
 		
@@ -183,7 +183,7 @@
 			         border: 1px solid #888888; 
 			         width: 1%; 
 			         height: 1%; 
-			         float: center; 
+			         float: left; 
 	                 }
 			 							
 /* ================================================================================ */
