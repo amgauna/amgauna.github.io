@@ -142,11 +142,11 @@
 	
 	navbar-default { display: inline-block; }
 			
-	navbar-header { float: none !important;}	
+	navbar-header { float: left !important;}	
 	
-    navbar-brand { float: none !important; color: #005aff; } /* cor azul royal */
+    navbar-brand { float: left !important; color: #005aff; } /* cor azul royal */
 				   
-	navbar-left, navbar-right { float: normal !important;}
+	navbar-left, navbar-right { float: left !important;}
 	
 				 
  /* ================================================================================ */
