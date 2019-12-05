@@ -13,7 +13,7 @@
 # 
 # CSS / Bootstrap 4.1.3
 # Observação1: Incluir o Link do CSS no HTML dentro do HEAD logo depois do META. 
-# Observação2: O Bootstrap 4.3.1 funciona programando junto com o PHP 7. Ele não funciona no PHP 5.2
+# Observação2: O Bootstrap 4.3.1 funciona programando junto com o PHP 7.4. Ele não funciona no PHP 5.2
 # link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 #
 # 
@@ -31,7 +31,17 @@
 # Observação5: Os icones da fonte Awesome funciona junto com HTML, CSS, Bootstrap e PHP.
 # link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 #
-# Relação de Icones que podem ser utilizados junto com o Bootstrap
+# Relação de Icones (Glyphicons) que podem ser utilizados junto com o Bootstrap
 # https://www.w3schools.com/icons/fontawesome_icons_intro.asp
+# https://getbootstrap.com/docs/4.0/extend/icons/
+# https://getbootstrap.com/docs/3.3/components/
+# https://getbootstrap.com.br/docs/4.1/extend/icons/
+# https://www.w3schools.com/icons/bootstrap_icons_glyphicons.asp
+# https://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp
+# https://mdbootstrap.com/docs/jquery/content/icons-list/
+# https://mdbootstrap.com/docs/jquery/content/icons-usage/
+# https://www.devmedia.com.br/bootstrap-glyphicons-aprenda-como-utilizar/37810
+# https://www.bootstrapicons.com/
+# https://coreui.io/docs/icons/
 #
-#  
+#
