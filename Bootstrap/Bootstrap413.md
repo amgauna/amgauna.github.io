@@ -31,7 +31,11 @@
 # Observação5: Os icones da fonte Awesome funciona junto com HTML, CSS, Bootstrap e PHP.
 # link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 #
+# Tutorial Font-Awesome: Fonte com Centenas de Ícones para seus Designs Web
+# https://www.tutoriart.com.br/font-awesome-fonte-com-centenas-de-icones-para-seus-designs-web/
+#
 # Relação de Icones (Glyphicons) que podem ser utilizados junto com o Bootstrap
+# https://fontawesome.com/icons?d=gallery
 # https://www.w3schools.com/icons/fontawesome_icons_intro.asp
 # https://getbootstrap.com/docs/4.0/extend/icons/
 # https://getbootstrap.com/docs/3.3/components/
