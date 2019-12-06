@@ -82,8 +82,8 @@
 	
 	/* Add a color to the current link */
 	a:visited { color: #700000; }  /* cor vermelho escuro margenta */
-    a:hover { color: #f4511e; } /* laranja */		  
-    a:active { color: #9F00FF; } /* violeta escuro */		   
+        a:hover { color: #f4511e; } /* laranja */		  
+        a:active { color: #9F00FF; } /* violeta escuro */		   
 	a:focus { color: #444444; } /* cinza escuro  */	
 	
 	
@@ -125,13 +125,13 @@
 		  cursor: pointer; 			 
 		  margin-top: 1%;
 		  padding: 1%; 
-	      padding-top: 1%; 
-	      padding-right: 1%; 
+	          padding-top: 1%; 
+	          padding-right: 1%; 
 		  padding-left: 1%;
-          list-style: none;
-          max-width: 100%; 
+                  list-style: none;
+                  max-width: 100%; 
 		  min-width: 10%;	
-          height: auto; 		  
+                  height: auto; 		  
 		  display: inline-block; 
 		  border-radius: 1; 
 		  z-index: 100%; 
@@ -143,11 +143,11 @@
 	
 	navbar-default { display: inline-block; }
 			
-	navbar-header { float: left !important;}	
+	navbar-header { float: none !important;}	
 	
-    navbar-brand { float: left !important; color: #005aff; } /* cor azul royal */
+        navbar-brand { float: none !important; color: #005aff; } /* cor azul royal */
 				   
-	navbar-left, navbar-right { float: left !important;}
+	navbar-left, navbar-right { float: none !important;}
 	
 				 
  /* ================================================================================ */
@@ -155,36 +155,36 @@
 	/*  NAVBAR LINK <UL> <LI> <A>  */
 	
 	nav ul li { display: inline-block;
-                text-decoration: none; 
-			    text-align: center; 
-			    display: inline; 	
+                    text-decoration: none; 
+		    text-align: center; 
+	            display: inline; 	
 	            margin-top: 1%;
-				padding: 1%; 
+		    padding: 1%; 
 	            padding-top: 1%; 
 	            padding-right: 1%; 
-				padding-left: 1%;
-                list-style: none;
-				width: 100%;
-                float: left !important;  				   
-			    overflow: auto;
-                } 
+		    padding-left: 1%;
+                    list-style: none;
+		    width: 100%;
+                    float: right !important;  				   
+	            overflow: auto;
+                    } 
 		
 		
-    nav ul li a { color: #444444; /* cinza escuro */ 
+           nav ul li a { color: #444444; /* cinza escuro */ 
 	                 text-decoration: none; 
-			         text-align: center; 
-			         display: inline; 
-                     margin-top: 1%; 
-					 padding: .1%;
-                     margin-right: 1%;			 
-			         list-style: none; 
-                     line-height: 25px; 
-			         height: 25px; 
-			         border-radius: 1%; 
-			         border: 1px solid #888888; 
-			         width: 1%; 
-			         height: 1%; 
-			         float: left; 
+			 text-align: center; 
+			 display: inline; 
+                         margin-top: 1%; 
+			 padding: .1%;
+                         margin-right: 1%;			 
+			 list-style: none; 
+                         line-height: 25px; 
+			 height: 25px; 
+			 border-radius: 1%; 
+			 border: 1px solid #888888; 
+			 width: 1%; 
+			 height: 1%; 
+			 float: right; 
 	                 }
 			 							
 /* ================================================================================ */
