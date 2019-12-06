@@ -227,20 +227,20 @@
        para que os itens do submenu não ultrapassem o seu menu pai e para
        que ele não interfira no fluxo dos elementos do menu.  */
 
-    dropdown li ul{ position: absolute;
+    dropdown li ul{ position: relative;
                     background-color:#fffddd; 
-					color: #000000;
+		    color: #000000;
                     display: inline;
-			        float: left;
-					overflow: auto;
+	            float: right;
+		    overflow: auto;
                     }   
 
     /* Exibir o submenu */
-    dropdown li:hover {float: left;} 
-	dropdown ul:hover {float: left;}
+    dropdown li:hover {float: right;} 
+	dropdown ul:hover {float: right;}
 
     dropdown li ul a{ border:1px solid #c0c0c0;
-                      position: absolute; 
+                      position: relative; 
                       display: inline;
                       float: left;				
                       }
@@ -251,7 +251,7 @@
                             text-shadow:0px 0px 5px #ffffff; 
                             }
 
-    dropdown pull-left { float: left; } /* menu flutuante puxado para a esquerda */
+    dropdown pull-left { float: none; } /* menu flutuante puxado para a esquerda */
 	
 	
 /* ================================================================================ */
