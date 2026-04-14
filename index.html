@@ -1,485 +1,948 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<!-- www.anagauna.dev.br -->
 
-<head>
-    <!-- <base href="http://www.anagauna.dev.br" target="_sef"> -->
+  <head>
+    <base href="http://www.anagauna.dev.br" target="_sef">
 
     <!-- Charset = UTF-8 ou ISO-8859-1  -->
     <meta charset="UTF-8" lang="pt-br" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="date" content="10/04/2026">
 
-    <meta name="date" content="15/04/2025">
     <meta name="author" content="Ana Mercedes Gauna">
     <meta name="copyright" content="Ana Mercedes Gauna" />
-    <meta name="reply-to" content="anagauna@anagauna.dev.br">
 
-    <meta name="description" content="Ana Mercedes Gauna, Mulher, Brasileira, Carioca, 
-    Solteira, Tecnóloga de Processamento de Dados (CRA-RJ: 03-03161), trabalhando desde
-    1996-2025 como Consultoria TI, CTO, Gestão de Projetos Técnicos, Analista de Sistemas 
-    Senior, Analista de Software, Analista de Dados, WebDeveloper [FrontEnd, BackEnd] 
-    (Microsoft Visual Studio Code, Xamp Server, Wamp Server, Apache TomCat, Apache NetBeams, 
-    CodeLobster, RapidPHP, EclipsePHP, PHPDesigner, GitHub, GitLab, Gift Bash, Notepad++, Filezilla, 
-    WSFTP, Twitch Studio, 
-    Docker, HTML5, CSS3, JavaScript, PHP8, Python3, DJango, Java, NodeJS, AngularJS, 
-    ReactJS), Framework (Bootstrap 5.3.5, CodeLobster, CodeIgniter, CakePHP, etc), 
-    Web Designer e Designer Gráfico (Adobe Cloud, PhotoShop, Adobe Dreamwave, PaintShop, 
-    TikTok Studio Live, TikTok CapCut, TikTok Effect House, Corel Draw, Corel Video Studio, OBS Studio, etc), 
-    Analista de Suporte Técnico (Microinformática, 
-    Microsoft Office 365 Business [Word, Excel, Access, PowerPoint, Outlook, Notes, 
-    OneDrive, Teams, Visio, Project, Yammer], Microsoft Windows, Microsoft Windows 
-    Server, SharePoint Server, Project Server, etc), Suporte Técnico Sistemas ERP
-    (Microsiga: Sistema Contabilidade Gerencial e Sistema Folha de Pagamento), 
-    (RM Sistemas: Sistema RMContabil, Sistema RMFluxo e Sistema RMFolha), TOTVS,  
-    (Nasajon: Sistema Contabilidade Gerencial, Folha de Pagamento e Cobrança), Sistema de
-    Administração de Condomínio, Sistema de Emissão de Boletos Bancários, etc,
-    trabalhando desde 1985-1995 na profissão de Técnica de Administração, na Cidade do
-    Rio de Janeiro, RJ, Brasil." />
+    <meta name="description" content="Ana Mercedes Gauna, CRA-03-03161, mulher, Católica, Brasileira, 
+    trabalhando desde 2015-atualmente como CTO, Consultor TI, Gestão de Projetos TT, 
+    Analista de Dados, Analista de Sistemas, Analista de Software, Web Developer 
+    (Frontend, Backend), Analista de Suporte Técnico TI, no Município do Rio de Janeiro, RJ, Brasil." />
 
-<meta name="keywords" content="Tecnologia da Informação, TI, Analista de Sistemas,
-Projetos Web, Gestão de Projetos, Webmaster, Web Designer, Web Developer, Front-end,
-Back-end, HTML, CSS, PHP, Bootstrap, Java, JavaScript, Node JS, Angular JS, React JS,
-Express JS, PHP, C++, C#, Visual Basic, Visual Studio, GitHUB, Gits, SQL Server,
-MySQL, programação web, data analytics">
+    <meta name="keywords" content="Tecnologia da Informação, CTO, Consultor TI, Consultoria TI, 
+    Administração de Projetos Web, Gestão de Projetos TI, Analista de Dados, Analista de Sistemas, 
+    Analista de Software, Webmaster, Web Designer, Web Developer, Frontend, Backend, AI, GitHUB">
 
-<!-- Google ADS / anagauna.dev.br -->
-<meta name="google-site-verification" content="ca-pub-1009049772490413" />
-<meta name="adsbygoogle" content="ca-pub-1009049772490413" />
-<meta name="gtag" content="UA-166307741-1" />
-<meta name="gtm" content="GTM-NGBNG23"> /* anagauna.dev.br */ 
+    <!--  FAVICON / Inserindo um favicon.jpg (260x260px ou 70x70px)  -->
+    <!-- <link rel="shortcut icon" href="*" type="image/x-icon">  -->
+    <link rel="shortcut icon" href="../assets/fotos/AnaGauna-coracao2024.jpg" type="image/x-icon">
 
-<title>Ana Gauna (Tech Dev)</title>
+    <!-- Google ADS / anagauna.dev.br -->
+    <meta name="google-site-verification" content="ca-pub-1009049772490413" />
+    <meta name="adsbygoogle" content="ca-pub-1009049772490413" />
+    <meta name="gtag" content="UA-166307741-1" />
+    <meta name="gtm" content="GTM-NGBNG23">  
 
-<!-- Template W3.CSS (w3schools.com) -->
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <title>Ana Gauna (Tech Dev)</title>
 
-<!-- Bootstrap 5.3.5 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
-integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-rel="stylesheet" crossorigin="anonymous" -->
+    <!-- Template W3.CSS (w3schools.com) -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto'>
+    
+    <!-- Front-Awesome 5 -->
+    <link rel="stylesheet" href="font-awesome5/fontawesome.css">
+    <link rel="stylesheet" href="font-awesome5/all.css">
+    <link rel="stylesheet" href="font-awesome5/brands.css">
+    <link rel="stylesheet" href="font-awesome5/regular.css">
+    <link rel="stylesheet" href="font-awesome5/solid.css">
+    <link rel="stylesheet" href="font-awesome5/svg-with-js.css">
+    <link rel="stylesheet" href="font-awesome5/v4-shims.css">
 
-<!-- JQuery Mobile 
-<link href="https://code.jquery.com/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="css">
-<link href="https://code.jquery.com/jquery.mobile.structure-1.4.5.min.css" rel="stylesheet" type="css">
-<link href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css" rel="stylesheet" type="css">
--->
+    <!--  Fonte Awesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<!--  Fonte Awesome Icons -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style> 
+      /* CSS */
+      /* color: #005aff; azul médio
+      /* color: #e3f2fd; azul claro 
+      /* color: #C6E9FF = azul claro 
+      /* color: #3B5998 azul-escuro 
+      /* color: #55ACEE azul-claro 
+      */
+    
+      :root { font-family: "Georgia", serif; 
+              font-size: 14px;
+              background-color: lightgrey /* cinza claro */;  
+              color: #000 /* preto*/;
+              border: 2px solid #aaa;
+              margin: 0px 0px 0px 0px; 
+              padding: 0px 0px 0px 0px; 
+              top: 0; botton: 0; left: 0; right: 0; 
+              display: inline-block; /* horizontal */
+              box-sizing: border-box;
+              position: relative;
+              float: none !important; 
+              gap: 40px;
+              border-radius: 0px; 
+              cursor: pointer;
+              font-weight: bold; 
+              line-height: 1.123456789;
+              letter-spacing: 3px;
+              word-spacing: 10px;
+              letter-spacing: normal; 
+              text-decoration: none; 
+              text-align: left;
+              align-content: center;
+              align-items: center;
+              align-self: center;
+              }
 
-<style>
-/* =================================================================================== */
+      html, body, main { margin: auto auto auto auto; 
+                         padding: auto auto auto auto; 
+                        }
 
-/* CSS */
+      h1, h2, h3, h4, h5, h6, b, u, strong { font-family: "Gill Sans Extrabold", sans-serif; }       
 
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif; }
+      article, blockquote { font-family: "Roboto", sans-serif; }
 
-h1 { color: darkred; }
-h2 { color: darkblue; }
-h3 { color: darkgreen; }
-h3 { color: black; }
+      h1 { color: teal; }
+      h2 { color: darkgreen; }
+      h3 { color: darkred; }
+      h4 { color: darkblue; }
+      h5 { color: brown; }
+      h6 { color: gray; }
 
-.body {
-    background-color: bg-light-grey;
-    color: white;
-    font-size: medium;
-    font-weight: bold;
-    line-height: normal;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-decoration: none;
-    text-align: justify;
-    align-content: center;
-    align-items: center;
-    align-self: auto;
-    text-decoration: none;
-    margin: 0px auto;
-    padding: 29px;
-    }
+      link { color: green; 
+             text-decoration: underline; 
+            }
 
-.div .col-sm-12 {
-    background-color: #ffffff;
-    color: #005aff;
-    display: grid;
-    border: 1px solid #aaa;
-    padding-left: 29px;
-    padding-right: 29px;
-    }
+      li { list-style-type: none; }
 
-.div .col-sm-4 {
-    background-color: #ffffff;
-    color: #005aff;
-    display: grid;
-    border: 1px solid #aaa;
-    padding-left: 29px;
-    padding-right: 29px;
-    }
+      ul li { display: inline-block; /* menu horizontal */
+              text-decoration: none;
+            }
 
-.div .col-sm-8 {
-    background-color: beige;
-    color: #005aff;
-    display: grid;
-    border: 1px solid #aaa;
-    padding-left: 29px;
-    padding-right: 29px;
-    }
+      ul li:last-child a { float: right; }
 
-.ul, .li, .a {text-decoration: none;}
+      div { margin: auto auto auto auto; 
+            padding: auto auto auto auto;
+            gap: 20px; 
+          }
 
-/* CSS / Social Media Icons / Bootstrap */
-/* Set a specific color for each brand */
-/* Facebook / color azul-escuro #3B5998 */
-/* Twitter  / color azul-claro  #55ACEE */
-/* Style all font awesome icons */
+      header { display: inline; }
 
-.i .fa {
-        background-color: beige;
-        color: #C6E9FF;;
-        border: 0px;
-        display: inline; /* horizontal */
-        position: relative;
-        line-height: 1.123456789;
-        letter-spacing: 2px;
-        word-spacing: 10px;
-        margin: 0px;
-        padding: 19px;
-        text-align: center;
-        align-content: center;
-        align-items: center;
-        align-self: center;
-        display: inline;
-        text-decoration: none;
-        font-family: 'Arial, Helvetica, sans-serif'; font-size: medium;  
-        position: relative;
-        border: 2px solid #aaa;  
-        }
-
-        								
-		    .nav { width: 100vw; margin: auto; padding: 20px 20px 20px 20px; cursor:pointer; font-size: 18px; 
-			       line-height: 1.987654321 !important; float: none !important; display: inline; 
-			       letter-spacing: 3px; word-spacing: 20px; border-radius: 1px; cursor: pointer;
-				     align-content: center; text-align: center; text-decoration: none; position: relative; }
+		  nav { background-color: teal; 
+            color: white;
+            width: 100%; 
+            margin: auto auto auto auto; 
+            padding: auto auto auto auto; 
+            float: none !important; 
+            display: inline !important; 
+            position: absolute;
+            align-content: center; 
+            align-itens: center;
+            align-self: center;
+            text-align: left; 
+            text-decoration: none; 
+            top: 0;
+            }
 			
-        .navbar-expand-md { text-decoration: none; margin: auto; padding: 20px 20px 20px 20px; }
+      navbar-expand-md { text-decoration: none; 
+                         margin: auto auto auto auto; 
+                         padding: 15px 15px 15px 15px; 
+                         }
 
-		    .navbar-default  { border-color: transparent; color: #fffddd !important; text-decoration: none; }
+		  navbar-default  { border-color: transparent; 
+                        color: #fffddd !important; 
+                        text-decoration: none; 
+                      }
 			
-		    .navbar-brand { float: none !important; font-size: 8px; color: white; text-decoration: none;}
+		  navbar-brand { float: none !important; 
+                     color: white; 
+                     text-decoration: none;
+                    }
 			
-            .navbar-header { float: none !important; text-decoration: none;} 
+      navbar-header { float: none !important; 
+                      text-decoration: none;
+                    } 
 			
-            .navbar-left, .navbar-right { color: #9F00FF; float: normal !important; text-decoration: none;}
+      navbar-left, navbar-right { color: #9F00FF; 
+                                  float: normal !important; 
+                                  text-decoration: none;
+                                }
 
-            .navbar-nav { float: none!important; margin-top: 7.5px; text-decoration: none; }
+      navbar-nav { float: none!important; 
+                   margin-top: 7.5px; 
+                   text-decoration: none; 
+                  }
 						
-	        .navbar li a { color: white; background-color: transparent !important; 
-                         display: inline; text-decoration: none; margin-right: 20px } 	
+	    navbar-link li a { background-color: transparent !important; 
+                         color: #fafbfc /* white */;
+                         display: inline; 
+                         text-decoration: none; 
+                         margin-right: 15px; 
+                        } 	
 			
-		    .navbar-nav li a:hover {color: #f4511e; background-color: #bbbbbb !important; 
-                           display: inline; text-decoration: none; margin-right: 20px;}	
+		  navbar-nav li a:hover { background-color: #bbbbbb !important; 
+                              color: #f4511e; 
+                              display: inline /* horizontal */; 
+                              text-decoration: none; 
+                              margin-right: 15px;
+                            }	
 			
-		    .navbar-nav li a:active {color: #9F00FF; background-color: #fffddd !important; 
-                           display: inline; text-decoration: none;}	
+		  navbar-nav li a:active { background-color: #fffddd !important; 
+                               color: #9F00FF;
+                               display: inline; 
+                               text-decoration: none;
+                              }	
 			
-		    .navbar-nav li { float: none!important; margin-top: 0px; text-decoration: none; 
-                         display: inline; margin-right: 20px; }	
+		  navbar-nav li { float: none !important; 
+                      margin-top: 0px; 
+                      text-decoration: none; 
+                      display: inline; 
+                      margin-right: 15px; 
+                    }	
 			
-        .navbar-nav>li>a { padding-top: 0px; padding-bottom: 0px; 
-                               text-decoration: none;  margin-right: 20px; }	
+      navbar-nav > li > a { padding-top: 0px; 
+                            padding-bottom: 0px; 
+                            text-decoration: none;  
+                            margin-right: 15px; 
+                          }	
 			
-			  .navbar-toggle { display: block !important; text-decoration: none;}
+			navbar-toggle { display: block !important; 
+                      text-decoration: none;
+                    }
 		
-            .collapse, .navbar-collapse { border-top: 1px solid transparent; display: none!important; 
-			        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1); text-decoration: none;}       		
+      navbar-collapse .collapse { border-top: 0px solid transparent; 
+                                  display: none!important; 
+			                            box-shadow: inset 0 1px 0 rgba(255,255,255,0.1); 
+                                  text-decoration: none;
+                                }       		
 				         																			   	
-            .collapse.in { display:block !important; text-decoration: none;}
+      navbar-collapse .collapse .in { display: block !important; 
+                                      text-decoration: none;
+                                    }
 	
+      div col { display: grid;
+                border: 1px solid #aaa;
+                margin: 0px;
+                padding: 15px 15px 15px 15px;
+                gap: 20px;
+                }
 
+      ul li a { text-decoration: none; }
 
-/* azul medio  #005aff;  / #e3f2fd; azul claro / color: #C6E9FF = azul claro */
-/* color: #3B5998 azul-escuro / color:#55ACEE azul-claro */
+      /* CSS / Social Media Icons / Bootstrap */
+      /* Set a specific color for each brand */
+      /* Facebook / color azul-escuro #3B5998 */
+      /* Twitter  / color azul-claro  #55ACEE */
+      /* Style all font awesome icons */
 
+      i .fa { background-color: beige;
+              color: #C6E9FF;;
+              border: 0px solid darkblue;
+              display: inline; /* horizontal */   
+              align-content: center;
+              align-items: center;
+              align-self: center;
+              display: inline;
+              text-decoration: none;
+              font-size: medium;  
+              position: relative;
+              border: 2px solid #aaa;  
+              }
+			
+      footer { background-color: teal; 
+               color: #ffffff; 
+               width: 100%; 
+               margin: 0px 0px 0px 0px; 
+               padding: auto auto auto auto; 
+               float: none !important; 
+               display: inline !important; 
+               position: absolute;
+               align-content: center; 
+               align-itens: center;
+               align-self: center;
+               text-align: center; 
+               text-decoration: none; 
+               bottom: 0;
+              }
+    </style>
+  </head>
 
-/* =================================================================================== */
-</style>
+  <body class="w3-light-grey">
 
-</head>
+    <nav class="navbar navbar-expand-md navbar-light w3-teal w3-center">
+      <ul class="navbar-nav" style="text-decoration: none;">
+          <strong class="w3-teal w3-center w3-xlarge"> ANA MERCEDES GAUNA (Tech Dev) <br>
+          Curriculum Vitae (Resume) </strong> <p></p> 
+          <hr style="height:10px; border:none; background-image:linear-gradient(to right, red, yellow, violet, blue);">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.php">Home</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.anagauna.eti.br">anagauna.eti.br</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.amgauna.com.br">amgauna.com.br</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/amgauna">GitHub</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://mulhertech.blogspot.com">Blogger</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://anagaunatech.wordpress.com">Wordpress</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://gravatar.com/anamgauna/">Gravatar</a> 
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a> 
+          </li> 
+      </ul>
+    </nav>   
 
-<header>
-<nav class="navbar navbar-expand-md navbar-light w3-teal w3-center">
-        <ul class="navbar-nav" style="text-decoration: none;">
-            <li class="nav-item">
-            <a class="nav-link active" href="index.php">Home</a> </li>
-            <li class="nav-item">
-            <a class="nav-link" href="https://www.anagauna.eti.br">anagauna.eti.br</a> </li>
-            <li class="nav-item">
-            <a class="nav-link" href="https://www.amgauna.com.br">amgauna.com.br</a> </li>
-            <li class="nav-item">
-            <a class="nav-link" href="https://mulhertech.blogspot.com">Blogger</a> </li>
-            <li class="nav-item">
-            <a class="nav-link" href="https://anagaunatech.wordpress.com">Wordpress</a> </li>
-            <li class="nav-item">
-            <a class="nav-link" href="https://gravatar.com/anamgauna">Gravatar</a> </li>
-        </ul>
-  </nav>
-  </header>
+    <p><br></p>
 
-<body class="w3-light-grey">  
+  
+  <main>
 	
-<!-- Page Container -->
-<div class="w3-content w3-container-center w3-margin-top" style="max-width:1024px;">
+    <!-- Page Container -->
+    <div class="w3-content w3-container-center w3-margin-top" style="min-width:400px; max-width: 1440px;">
+    <p><br></p>
+    <p><br></p>
 
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-  
-    <!-- Left Column -->
-    <div class="w3-third">
-    
-      <div class="w3-white w3-text-grey w3-card-9">
-        <div class="w3-display-container">
-          <div class="w3-display-bottom-left w3-container w3-text-black">         
-</div>
-      </div>
-          
-<div class="w3-container">
-    
-<br>
-    <h2><b>Ana M Gauna</b></h2>  
-<br>
-    
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i><b>* IT Consultant <br> 
-                       * Senior Software Analyst <br>
-                       * Data Processing Technologist <br>                               
-                       * Web Developer (Backend)<br>
-                       * IT Projects Web Management<br>                         
-                       * IT Tech Support (1996-2025)<br>                               
-                       * Administration Technician (1985-1995) </b> </p>
-                                                                                   
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Rio de Janeiro, RJ, Brazil</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i> email: anagauna@anagauna.dev.br</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i> WhatsApp: +55 (21) 97414-8008 </p>
-</div>
+      <!-- The Grid -->
+      <div class="w3-row-padding">
+      <p><br></p>
 
-<hr>
+        <!-- Left Column -->
+        <div class="w3-third">
+        <p><br></p>
 
-<div class="w3-container">              
-      
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-                                                                                             
-          <p>IT project management, administration and control, organization and methods, financial mathematics, etc. <br>
-         Analyst of Google Marketing Platform (AdWords, AdSense, Analystics, Tags, Tools, SEO), Google Ads, Youtube Ads, 
-         Facebook Ads, Twitter Ads, etc.</p>       
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:100%">100%</div></div>
-                                                                                          
-          <p>Microsoft Windows 11, MS Office 365 (Word, Excell, PowerPoint, Access, Notes, Outlook, MS Teams, Onedrive), 
-            PowerBI, MS Visio, MS Project 365, Windows 10, Windows 8, Windows 7, Windows Vista, Windows XP, Windows 98,
-            Windows 95, MS-DOS, etc.</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:95%">95%</div></div>
-                                                   
-          <p>MS Windows Server, MS SQL Server 2019, MS SQL Studio, Transact SQL, <br> Sharepoint Server, MS Project Server, etc.</p>           
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div></div>
-                                                                                         
-          <p align="justify">MX Linux (2025), Linux Mint, <br> Debian Linux, Ubuntu Linux, <br> Satux Linux, Mandriva Linux, etc.</p>                 
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:35%">35%</div></div>
-                                                                                         
-          <p>Norton 365, McAfee, Kaspersky, Trendnet, AVG, Avast, etc. </p>            
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:95%">95%</div></div>
-                                                                                         
-          <p>HTML3, HTML4, HTML5, JavaScript, CSS3, PHP5, PHP6, PHP7, PHP8, JQuery, JSON, XML, MySQL, etc. </p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:85%">85%</div></div>
-                                                                                         
-          <p>Framework Bootstrap3, Bootstrap4, Bootstrap5, Node.js, Angular.js, React.js, CakePHP,
-            CodeIgniter, Google Cloud APIs, Google Maps APIs, Google Developers APIs, Facebook APIs,
-            Twitter APIs, PagSeguro UOL APIs, Mercado Pago APIs, etc. </p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:65%">65%</div></div>
-                          
-                                                  
-          <p>Visual Studio Code, Visual Studio Community, 
-          Notepad++, EclipsePHP, Apache NetBeans, Apache Tomcat, Xamp, Wamp, Filezilla, WS-FTP, etc.</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div></div>
-                                     
-                                                                                         
-          <p>Image Editing: Corel Draw, Adobe Photoshop, PaintShop, etc; <br> 
-             Video Editing: Corel Video Studio Pro, Capcut, Tiktok Live, Effect House, etc.</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:45%">45%</div></div>
-             
-                                                                                         
-          <p>Artificial Intelligence: OpenAI Chat-GPT4, BLACKBOX.AI,
-          Microsoft Copilot, Google Gemini AI, etc.</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:35%">35%</div></div> 
-  
-            <br>
-  </div>
+          <div class="w3-white w3-text-black w3-card-5">
+          <p><br></p>
 
-<hr>
+            <div class="w3-display-container">
+                <div class="w3-display-bottom-left w3-container w3-text-black">         
+                </div>
+            </div>
+            <p></p>
 
-      <div class="w3-container">                                                                                           
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal">
-          </i>Languages</b></p>
-                                                                                                        
-          <p>Portuguese (Native) </p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:100%">100%</div></div>
+            <div class="w3-container"> <p class="w3-large"> 
+              <i class="fa fa-briefcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"> Ana Mercedes Gauna </i> </p>
+              <p></p>
+                * Consultor TI (2015-2026) <br> 
+                * Gestão de Projetos TI <br>
+                * Implantação de Projetos TI <br>
+                * Analista de Software Senior <br>
+                * Tecnólogo Processamento de Dados <br>                               
+                * Web Developer (Backend) <br>
+                * Suporte Técnico Windows <br> 
+                * Técnico de Administração <br> 
+              <br>                                                              
+              <i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-black"> 
+                  Rio de Janeiro, RJ, Brasil </i> <br>
+              <i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-black"> 
+                  email: anagauna@anagauna.dev.br </i> <br>
+              <i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-black"> 
+                  WhatsApp: +55(21)97414-8008 </i> </p>
+            </div>
+
+            <p></p>
+            <hr style="height:10px; border:none; background-image:linear-gradient(to right, red, yellow, violet, blue);">
+            <p></p>
+
+            <div class="w3-container">              
+                <p class="w3-large"> <i class="fa fa-asterisk fa-fw w3-margin-right w3-large w3-text-teal"> 
+                <b> Habilidades </b> </i> </p>      
+                <p> * Gestão de Projetos TI <br>
+                    * Administração e Controle <br>
+                    * Organização e Metodos (O&M) <br>
+                    * Matematica Financeira <br>
+                    * Terceirização de Serviços <br>
+                    * Analista de Marketing Digital <br>
+                    * Google Marketing Platform (2015-2026) <br>
+                    * Google AdWords, Google AdSense <br> 
+                    * Google Analytics, Youtube Ads <br> 
+                    * APIs Google Translate (2014-2026) <br>
+                    * APIs Google Developers (2017-2026) <br>
+                    * APIs Google Maps (2017-2026) <br>
+                    * APIs Facebook Ads (Meta Ads) <br>
+                    * APIs Twitter Ads (2015-2019) <br>
+                    * APIs PagSeguroUOL (2015-2022) <br>
+                    * APIs Mercado Pago (2015-2022) </p>  
+                    * Suporte Técnico Sistemas ERP Administração, 
+                    Financeiro, Folha de Pagamento, Contabilidade 
+                    (Microsiga, RM Sistemas, Nasajon) (1996-2010) <br>                              
+                <div class="w3-light-grey w3-left w3-round-xlarge w3-small" style="width:100%;"> <!-- gray -->
+                  <div class="w3-container w3-left w3-center w3-round-xlarge w3-teal" style="width:80%;"> 80% </div>
+                </div>   
+
+                <p></p>
+                <hr style="height:10px; border:none; background-image:linear-gradient(to right, red, yellow, violet, blue);">
+                <p></p>
+
+                <i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"> <b> Sistema Operacional Windows </b> </i> </p>
+                <p> * Microsoft Windows 11 (varias versões) <br>
+                    * Microsoft Office 365 (Word, Excel, PowerPoint, Access, OneNotes, Onedrive, Outlook, Teams, Copilot 365) <br>
+                    * Microsoft PowerBI <br>
+                    * Microsoft Visio <br>
+                    * Microsoft Sharepoint <br>
+                    * Microsoft Project </p>
+                <div class="w3-light-grey w3-left w3-round-xlarge w3-small" style="width:100%;"> <!-- gray -->
+                  <div class="w3-container w3-left w3-center w3-round-xlarge w3-teal" style="width:80%"> 80% </div>
+                </div>
+
+                <p></p>
+                <hr style="height:10px; border:none; background-image:linear-gradient(to right, red, yellow, violet, blue);">
+                <p></p>   
+
+                <i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"> <b> Sistema Operacional Windows Server </b> </i> </p>                                
+                <p> * Microsoft Windows Server (2000-2018) <br>
+                    * Microsoft SQL Server (2000-2019) <br>
+                    * MS-SQL Server Express (varias verões) <br>
+                    * Microsoft SQL Studio (varias versões) <br> 
+                    * SQL Data Backup (2000-2018) <br> 
+                    * SQL Data Restore (2000-2018) <br>
+                    * Microsoft Transact SQL (2012-2018) <br>
+                    * Microsoft Sharepoint Server (2018) <br>
+                    * Microsoft Project Server (2018) </p>          
+                <div class="w3-light-grey w3-left w3-round-xlarge w3-small" style="width:100%;"> <!-- gray -->
+                    <div class="w3-container w3-left w3-center w3-round-xlarge w3-teal" style="width:75%"> 75% </div>
+                </div>
+
+                <p></p>
+                <hr style="height:10px; border:none; background-image:linear-gradient(to right, red, yellow, violet, blue);">
+                <p></p>  
+
+                <i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"> <b> Sistema Operacional Linux </b> </i> </p>                                                                       
+                <p> * Linux Mint (2025) <br>
+                    * MX Linux (2024) <br>
+                    * Linux Debian (2023) <br>
+                    * Linux Ubuntu (2022) <br>
+                    * Satux Linux (2007-2011) <br>
+                    * Mandriva Linux (1998) </p>   
+                <div class="w3-light-grey w3-left w3-round-xlarge w3-small" style="width:100%;"> <!-- gray -->
+                  <div class="w3-container w3-left w3-center w3-round-xlarge w3-teal" style="width:50%"> 50% </div>
+                </div>
+
+                <p></p>
+                <hr style="height:10px; border:none; background-image:linear-gradient(to right, red, yellow, violet, blue);">
+                <p></p>  
+
+                <i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"> <b> Antivirus </b> </i> </p>                                                                     
+                <p> * Norton Security <br>
+                    * McAfee Security <br>
+                    * MalwareBytes Security <br>
+                    * BitDefender Security <br>
+                    * Kaspersky Security <br>
+                    * Trendnet Secutiry  <br> 
+                    * AVG Security  <br>
+                    * Avast Security </p>  
+                <div class="w3-light-grey w3-left w3-round-xlarge w3-small" style="width:100%;"> <!-- gray -->
+                  <div class="w3-container w3-left w3-center w3-round-xlarge w3-teal" style="width:95%"> 95% </div>
+                </div>
+
+                <p></p>
+                <hr style="height:10px; border:none; background-image:linear-gradient(to right, red, yellow, violet, blue);">
+                <p></p> 
+
+                <i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"> <b> Programação Web </b> </i> </p>                                                                        
+                <p> * HTML3, HTML4, HTML5 <br>
+                    * CSS3 <br>
+                    * Bootstrap3, Bootstrap4, Bootstrap5 <br>
+                    * PHP5, PHP6, PHP7, PHP8 <br>
+                    * Oracle MySQL <br>
+                    * JSON <br>
+                    * XML <br>
+                    * Python 3 (estudando) <br>
+                    * Framework CakePHP <br>
+                    * Framework CodeIgniter <br> 
+                    * Java Server Pages (Sun MicroSystems) <br>
+                    * Java (Oracle) (2010) <br>
+                    * Visual C# (2008) </p> 
+                  <div class="w3-light-grey w3-left w3-round-xlarge w3-small" style="width:100%;"> <!-- gray -->
+                  <div class="w3-container w3-left w3-center w3-round-xlarge w3-teal" style="width:75%"> 75% </div>
+                </div>
+
+                <p></p>
+                <hr style="height:10px; border:none; background-image:linear-gradient(to right, red, yellow, violet, blue);">
+                <p></p> 
+
+                <i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"> <b> Programação Web: JavaScript </b> </i> </p>                                                                        
+                <p> * JavaScript (1997-2011) <br>
+                    * JavaScript ES6 (ECMAScript 2025) <br>
+                    * JQuery 3 (2015-2022) <br>
+                    * JQuery 4 (2026) <br>
+                    * Node.js (2015-2022) <br> 
+                    * Angular.js (estudando) <br> 
+                    * TypeScript (estudando) <br>
+                    * React.js (estudando) <br>
+                    * Express.js (estudando) <br>
+                    * Next.js (estudando) </p>
+                <div class="w3-light-grey w3-left w3-round-xlarge w3-small" style="width:100%;"> <!-- gray -->
+                  <div class="w3-container w3-left w3-center w3-round-xlarge w3-teal" style="width:50%"> 50% </div>
+                </div>
+
+                <p></p>
+                <hr style="height:10px; border:none; background-image:linear-gradient(to right, red, yellow, violet, blue);">
+                <p></p> 
+
+                <i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"> <b> Programação Web: Utilitários </b> </i> </p>                                                                                                                      
+                <p> * MS Visual Studio Community <br>
+                    * Microsoft VS Code <br>
+                    * Google Antigravity <br> 
+                    * Notepad++ <br>
+                    * PHP Storm <br>
+                    * Eclipse IDE PHP <br> 
+                    * PHP Designer 8 <br>
+                    * Rapid PHP <br> 
+                    * Git Bash <br>  
+                    * Apache Web Server <br>
+                    * Apache NetBeans Server <br>
+                    * Apache Tomcat Server <br>
+                    * Xamp Server 64bits <br>
+                    * Wamp Sever 64bits <br> 
+                    * GitHub Desktop <br>
+                    * WS-FTP <br>
+                    * Filezilla FTP <br>
+                    * Core FTP LE </p>
+                <div class="w3-light-grey w3-left w3-round-xlarge w3-small" style="width:100%;"> <!-- gray -->
+                  <div class="w3-container w3-left w3-center w3-round-xlarge w3-teal" style="width:75%"> 75% </div>
+                </div>
+
+                <p></p>
+                <hr style="height:10px; border:none; background-image:linear-gradient(to right, red, yellow, violet, blue);">
+                <p></p> 
+
+                <i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"> <b> Edição: AI Images & AI Videos </b> </i> </p>                                                                                                                                                                                                                     
+                <p> * Corel Draw <br>
+                    * Adobe Photoshop <br>
+                    * Corel PaintShop <br>
+                    * ArcSoft Panorama Maker 6 <br>
+                    * ArcSoft Photo Impression <br>
+                    * ArcSoft Video Impression <br> 
+                    * CyberLink Power Director 16 <br>
+                    * Corel Video Studio Pro 2023 <br>
+                    * MAGIX Video Pro X <br> 
+                    * OBS Studio <br>
+                    * Sony Video Studio <br>
+                    * Media Player Drivers <br>
+                    * Tiktok Capcut AI <br>
+                    * Tiktok Live <br>
+                    * TikTok Effect House AI <br>
+                    * OpenAI Sora 2 <br>
+                    * Gemini Nano Banana Pro <br>
+                    * Gemini VEO 3 Pro, etc. </p>
+                <div class="w3-light-grey w3-left w3-round-xlarge w3-small" style="width:100%;"> <!-- gray -->
+                  <div class="w3-container w3-left w3-center w3-round-xlarge w3-teal" style="width:65%"> 65% </div>
+                </div>
+
+                <p></p>
+                <hr style="height:10px; border:none; background-image:linear-gradient(to right, red, yellow, violet, blue);">
+                <p></p> 
+
+                <i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"> <b> Inteligência Artificial: LLMs Analisando  </b> </i> </p>                                                                                                                                                                                                                                                                                       
+                <p> * LLM Google Gemini AI <br>
+                    * LLM OpenAI Chat-GPT4 <br>
+                    * LLM OpenAI Chat-GPT3 <br>
+                    * LLM DeepSeek AI <br> 
+                    * LLM xAI Grok AI <br>
+                    * LLM Manus AI <br>
+                    * LLM Antropic Claude Sonet AI <br>
+                    * LLM Antropic Claude Opus AI <br>
+                    * LLM Perplexity AI <br>
+                    * LLM Blackbox AI <br>
+                    * LLM Microsoft Copilot AI <br>
+                    * LLM GitHub Copilot AI <br>
+                    * LLM Google NotebooKLM AI <br>
+                    * Google AI Studio, etc. </p>
+              <div class="w3-light-grey w3-left w3-round-xlarge w3-small" style="width:100%;"> <!-- gray -->
+                <div class="w3-container w3-left w3-center w3-round-xlarge w3-teal" style="width:65%"> 65% </div>
+              </div> 
+            </div>
+
+            <p></p>
+            <hr style="height:10px; border:none; background-image:linear-gradient(to right, red, yellow, violet, blue);">
+            <p></p>
+
+            <div class="w3-container">                                                                                           
+              <p class="w3-large w3-text-theme"> <i class="fa fa-globe fa-fw w3-margin-right w3-large w3-text-teal"> 
+                <b> Idiomas </b> </i> </p>   
+
+              <p> * Lingua Portuguesa (Brasil Native) <br>
+                  * Lingua Portuguesa (Portugal) </p>
+              <div class="w3-light-grey w3-left w3-round-xlarge w3-small" style="width:100%;"> <!-- gray -->
+                <div class="w3-round-xlarge w3-left w3-center w3-teal" style="width:90%"> 90% </div>
+              </div> <br>
                                                                                          
-          <p>Technical English (intermediate) for reading technical manuals</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-          <div class="w3-round-xlarge w3-center w3-teal" style="width:80%">80%</div></div>
+              <p> * Manual Técnico em Inglês (avançado) <br>
+                  * Lingua Inglesa (Intermediário: Eu entendo quase tudo que leio) </p>
+              <div class="w3-light-grey w3-left w3-round-xlarge w3-small" style="width:100%;"> <!-- gray -->
+                <div class="w3-round-xlarge w3-left w3-center w3-teal" style="width:70%"> 65% </div>
+              </div> <br>
+                                                                                                                                          
+              <p> * Lingua Espanhola (Intermediário: Eu entendo quase tudo que leio) </p>
+              <div class="w3-light-grey w3-left w3-round-xlarge w3-small" style="width:100%;"> <!-- gray -->
+                <div class="w3-round-xlarge w3-left w3-center w3-teal" style="width:70%"> 65% </div>
+              </div> <br>
                                                                             
-            <p>English (speaking and writing)</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-round-xlarge w3-center w3-teal" style="width:50%">50%</div></div>
-                                                                            
-          <p>Spanish (basic) </p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-round-xlarge w3-center w3-teal" style="width:50%">50%</div></div>
-                                                                            
-             <p> Italian (basic)</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-          <div class="w3-round-xlarge w3-center w3-teal" style="width:40%">40%</div> </div>  
-           <p>French (basic)</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-round-xlarge w3-center w3-teal" style="width:30%">30%</div></div><br>   
-      </div>
-                                                                            
+             <p> * Lingua Italina (Basico: Eu entendo quase tudo que leio) </p>
+             <div class="w3-light-grey w3-left w3-round-xlarge w3-small" style="width:100%;"> <!-- gray -->
+                <div class="w3-round-xlarge w3-left w3-center w3-teal" style="width:40%"> 40% </div> 
+              </div> <br> 
+
+             <p> * Language: French (Basico: Eu entendo quase tudo que leio) </p>
+             <div class="w3-light-grey w3-left w3-round-xlarge w3-small" style="width:100%;"> <!-- gray -->
+                <div class="w3-round-xlarge w3-left w3-center w3-teal" style="width:40%"> 40% </div>
+            </div> <br>
+        </div>
+
+        <p></p>
+        <hr style="height:10px; border:none; background-image:linear-gradient(to right, red, yellow, violet, blue);">
+        <p></p>
+        <!--  Google Maps Incorporado  -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.8893863298917!2d-43.19393468513257!3d-22.954300484987726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fe0d5488ec5%3A0x6eb6f463a1374111!2sR.+Volunt%C3%A1rios+da+P%C3%A1tria%2C+Rio+de+Janeiro+RJ%2C+!5e0!3m2!1spt-BR!2sbr!4v1527636033795"
+        min-width="300px" max-width="600px" height="250px" frameborder="0px" allow="allowfullscreen"> </iframe>
+        <!--  Fim Google Maps Indorporado  -->
+        
+        <p></p>
+        <hr style="height:10px; border:none; background-image:linear-gradient(to right, red, yellow, violet, blue);">
+        <p></p>
+                                                                     
     <!-- End Left Column -->
     </div> </div>
 
     <!-- Right Column -->
     <div class="w3-twothird">
-
+    <p><br></p>
     
       <div class="w3-container w3-card w3-white w3-margin-right w3-justify">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-        <br> 
+          <p><br></p>
+          <h2 class="w3-text-grey w3-padding-9"> <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal">
+          <p></p>
+          <b> Experiência de Trabalho </b> </i> </h2>
+          <p></p> 
 
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Amgauna Tecnologia Projetos Web<br> amgauna.com.br * anagauna.eti.br * anagauna.dev.br</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017 - 2024 / Freelancer <span class="w3-tag w3-teal w3-round">Currently</span></h6>
-          <p>IT Consultant, IT Projects Management, Windows Tech Suppot Analyst, Web Development (HTML5, CSS3, JavaScript, Bootstrap 5.3.5, 
-            PHP8, SQL, JQuery, Python3, React.js, Node.js, Angular.js), SEO, Digital Marketing, APIs Google Developers, APIs Google Maps, 
-            Google Marketing Platform (AdSense, AdWords, Analytics), APIs Facebook Ads, APIs Twitter Ads, etc. Graphic Designer (Corel Draw, 
-            PaintShop, Adobe Photoshop, Adobe Behance) </p>
-            <br>
-      </div> </div>
-       
-          <hr>
-                      
-      <div class="w3-container w3-card w3-white w3-margin-right w3-justify">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-        
-        <div class="w3-container">
-          <h5 class="w3-opacity">
-          <b>Postgraduate MBA Course</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2025 - Forever <span class="w3-tag w3-teal w3-round">Currently</span></h6>
-          <p align="justify"> Postgraduate MBA Course in Strategic Project Management (Online EAD Course) of Centro Universitário IBMR (Ânima Educação) in City of Rio de Janeiro, RJ, Brazil.</p>
-      </div>
-
-<hr>    
-
- <div class="w3-container">
-     <h5 class="w3-opacity">                                
-     <b>Web Development Courses</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - Forever 
-         <span class="w3-tag w3-teal w3-round">Currently</span></h6>
-          <p align="justify"> <b>W3Schools.com</b> <br> Web Development Courses! Updating knowledge in website programming! 
-          Remembering and studying: HTML5, CSS3, JavaScript, Bootstrap5, PHP8, SQL, Angular.js, Node.js, React.js, JQuery, 
-          Java, Python3, C, C++, C#.</p>
-  </div>                
-  
-          <hr>
-        
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Undergraduate University Course</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>1993/1997/2001 - 2003</h6>
-         <p><b>UNIFACHA - Faculdades Integradas Helio Alonso</b><br>
-          * Course of Data Processing Technology (since 2003) with Professional Registration CRA-RJ: 03-03161 (since 2016) 
-            of Conselho Regional de Administração in State of Rio de Janeiro, Brazil <br>
-       * Course of Windows 2000 Network And Operating Systems Essentials (07/07/2001 - 28/07/2001)                                                               </p>
-       </div> 
-
-          <hr>
-        
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>NSI Informática Ltda (Microsoft Partner)</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Fev/2000 - Mai/2000</h6>
-        <p>Official Course of MCSE Microsoft (Rio de Janeiro, Brazil)<br>
-        * Course: Supporting MS Windows NT 4.0 Core Technologies (Fev/2000)<br>
-        * Course: Supporting MS Windows NT 4.0 Enterprise Technologies (Mar/2000) <br>     
-        * Course: Implementing a Database in MS SQL Server 7.0 (Mai/2000)</p>
-       </div>
-
-        <hr>
-      
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>TBA Informática Ltda (Microsoft Partner)</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan/2000 - Fev/2000</h6>
-          <p>Official Course of MCSE Microsoft (Rio de Janeiro, Brazil) <br> 
-          * Course: Internetworking MS TCP-IP on Microsoft Windows NT 4.0 (Fev/2000)<br>
-          * Course: Administrando o Microsoft Windows NT 4.0 (Jan/2000)  </p>
+          <div class="w3-container">
+              <h4 class="w3-opacity"> <b> Amgauna Tecnologia Projetos Web </b> <br> 
+              www.amgauna.com.br | github.com/amgaunatecnologia </h4>
+              <h4 class="w3-text-teal"> <i class="fa fa-calendar fa-fw w3-margin-right"> 2017 - </i> 
+              <span class="w3-tag w3-teal w3-round"> Atualmente </span> </h4>              
+              <p> Empresa Brasileira, CNPJ MEI, Freelancer, CTO, Consultor TI, Gestão de Projetos TI, Analista de Suporte 
+              Técnico Windows, Web Development, Frontend,  Backend; SEO, Digital Marketing, Google Marketing Platform 
+              (Google AdSense, Google AdWords, Google Analytics, Google Tags, APIs Google Developers, APIs Google Maps, 
+              APIS Google Cloud), APIs Facebook Ads, APIs Twitter Ads; Web Designer; Graphic Designer (Corel Draw, 
+              Adobe Photoshop, Corel PaintShop, Adobe Behance), etc. </p> 
           </div>
 
+          <p></p>
+          <hr>
+          <p></p>
+
+          <div class="w3-container">
+              <h4 class="w3-opacity"> <b> Freelancer - Profissional Autônomo (Brasil) </b> <br> 
+              www.anagauna.eti.br | www.anagauna.dev.br | github.com/amgauna </h4>
+              <h4 class="w3-text-teal"> <i class="fa fa-calendar fa-fw w3-margin-right"> 2015 - </i> 
+              <span class="w3-tag w3-teal w3-round"> Atualmente </span> </h4>              
+              <p> Freelancer, CTO, Consultor TI, Gestão de Projetos TI, Analista de Suporte, Técnico Windows, 
+              Web Development, Frontend,  Backend; SEO, Digital Marketing, Google Marketing Platform (Google AdSense, 
+              Google AdWords, Google Analytics, Google Tags, APIs Google Developers, APIs Google Maps, APIS Google Cloud), 
+              APIs Facebook Ads, APIs Twitter Ads; Web Designer; Graphic Designer (Corel Draw, Adobe Photoshop, 
+              Corel PaintShop, Adobe Behance), etc. </p>         
+          </div>
+
+          <p></p>
+          <hr style="height:10px; border:none; background-image:linear-gradient(to right, red, yellow, violet, blue);">
+          <p></p>
+
+          <div class="w3-container">
+              <h2 class="w3-opacity jumbotron w3-text-teal"> <b> Ex-Empregos (CLT) | 1985 - 2014 </b> </h2> 
+
+              <hr>
+
+              <h4 class="w3-text-teal w3-margin-right">              
+              <b> Condominio do Edificio Centro Candido Mendes (1992-2014) </b> </h4> 
+              Estabelecido na Rua da Assembleia nº 10, Pavimento de Serviços, Centro, Cep: 20019-900,
+              Municipio do Rio de Janeiro, Estado do RJ, Brasil. <br>
+              Espécie de Estabelecimento: Edifício Comercial (42 andares) com salas comerciais e lojas comerciais. <br>
+              Promoção de Cargo: a partir de 01/Setembro/1996 até 01/Fevereiro/2015 (18 anos), passou a 
+              exercer a Função de Confiança de Sub-Gerente de Serviços de Eletrônica e Informática. <br>
+              Promoção de Cargo: a partir de 01/Setembro/1993 até 01/Setembro/1996 (3 anos), passou a exercer 
+              a função de Assistente de Informática. <br>
+              Admitida no Cargo: Auxiliar de Contabilidade em 01/Setembro/1992 até 01/Setembro/1993 (13 meses). <br> 
+              Quando a Direção Executiva quis contratar um rapaz jovem, recém-formado em Análise de Sistemas, para 
+              fazer o meu trabalho. Eu não aceitei ser transferida de Setor de trabalho, pedi para me demitir. </p>
+
+            <hr>
+
+            <h4 class="w3-text-teal w3-margin-right">
+            <p> <b> Interface Centro de Pós Produção Ltda (1990-1991) </b> </h4>
+            Estabelecido no Municipio do Rio de Janeiro, Estado do RJ, Brasil. <br>
+            Especie de Estabelecimento: Produção Teatral Cinematográfica, Marketing de Conteúdo. 
+            (Diretor de Filmagem: Alexander Tanko) <br>
+            Admitida no Cargo: Datilógrafa - Observação: trabalhava como Secretária. <br>
+            Data de Admissão: 01 de Outubro de 1990 - Data de Demissão: 09 de Outubro de 1991. (13 meses) </p>
+
+            <hr>
+            
+            <h4 class="w3-text-teal w3-margin-right">
+            <p> <b> J. B. Tanko Filmes Ltda (1990) </b> </h4>
+            Estabelecido no Municipio do Rio de Janeiro, Estado do RJ, Brasil. (area: Marketing/Televisão) <br>
+            Especie de Estabelecimento: Produção Televisão e Cinematográfica, Marketing de Conteúdo. 
+            (Diretor de Filmagem: Alexander Tanko) <br> 
+            Admitida no Cargo: Datilógrafa - Observação: trabalhava como Secretária. <br>
+            Data de Admissão: 02 de Janeiro de 1990 - Data de Demissão: 02 de Junho de 1990. (5 meses) </p>
+
+            <hr>
+
+            <h4 class="w3-text-teal w3-margin-right">
+            <p> <b> J. B. Tanko Filmes Ltda (1987-1989) </b> </h4>
+            Estabelecido no Municipio do Rio de Janeiro, Estado do RJ, Brasil. (area: Cinema ) <br>
+            Especie de Estabelecimento: Produção Cinematográfica (Diretor de Filmagem: J.B.Tanko 
+            e Alexander Tanko) <br> 
+            Admitida no Cargo: Datilógrafa - Observação: Eu trabalhava como Secretária. <br>
+            Data de Admissão: 01 de Maio de 1987 - Data de Demissão: 02 de Maio de 1989. (13 meses) </p>
+
+            <hr>
+
+            <h4 class="w3-text-teal w3-margin-right">
+            <p> <b> Instituto Severa Romana (1986-1987)</b> </h4>
+            Estabelecido no Municipio do Rio de Janeiro, Estado do RJ, Brasil. <br>
+            Especie de Estabelecimento: Escola e Clínica para Crianças e Adolescentes <br> 
+            Admitida no Cargo: Auxiliar de Secretária - Data de Admissão: 19 de Março de 1986 <br>
+            Data de Demissão: 13 de Fevereiro de 1987. (12 meses) </p>
+
+            <hr>
+
+            <h4 class="w3-text-teal w3-margin-right">
+            <p> <b> Planerj Planejamento de Anuncios Especiais RJ Ltda (1985) </b> </h4>
+            Estabelecido no Municipio do Rio de Janeiro, Estado do RJ, Brasil. <br>
+            Especie de Estabelecimento: Publicidade e Empreendimentos, Marketing de Conteúdo. <br> 
+            Admitida no Cargo: Supervisora - Data de Admissão: 12 de Agosto de 1985 <br>
+            Data de Demissão: 07 de Novembro de 1985. (3 meses) </p>
+ 
+          <p></p>
+          <hr style="height:10px; border:none; background-image:linear-gradient(to right, red, yellow, violet, blue);">
+          <p></p>
+
+      </div> </div>
+
+      <p><br></p>
+                      
+      <div class="w3-container w3-card w3-white w3-margin-right w3-justify">
+        <h2 class="w3-text-grey w3-padding-16"> <i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal">
+        <p></p>
+        <b> Educação (Curso Universitário) </b> </i> </h2>
         <hr>
+        <p></p>
         
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>IBPI - Instituto Brasileiro de Pesquisa em Informática</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan/1997 - Jan/1998</h6>
-          <p>Computer Programming Training Course (Jan/1997 - Jan/1998) in City of Rio de Janeiro, RJ, Brazil</p>
-          <br>
+        <div class="w3-container"> 
+          <h4 class="w3-opacity"> <b> Curso de Pós Graduação MBA </b> </h4>
+          <h5 class="w3-text-teal"> <b> MBA Gestão Estratégica de Projetos </b> </h5>
+          <h6 class="w3-text-teal"> <i class="fa fa-calendar fa-fw w3-margin-right"> Duração: Março 2025 (18 meses) </i> 
+          <span class="w3-tag w3-teal w3-round"> Atualmente </span> </h6>
+          <b> IBMR Centro Universitário </b> <br>
+          * MBA Curso de Pós Graduação Online - Curso MBA Gestão Estratégica de Projetos (Curso EAD) da Ânima Educação, 
+          Ulife Educação, no Município do Rio de Janeiro, RJ, Brasil. </p>
         </div>
+
+        <p></p>
+        <hr>
+        <p></p>
+   
+        <div class="w3-container">
+          <h4 class="w3-opacity"> <b> Curso Universitário </b> </h4>
+          <h6 class="w3-text-teal"> <i class="fa fa-calendar fa-fw w3-large w3-margin-right"> 
+          <b> UNIFACHA - Faculdades Integradas Helio Alonso </b> </i> </h6> 
+          * Curso de Tecnologia de Processamento de Dados, curso presencial, duração: 18 meses, 
+          curso completo: 2003) | CRA-RJ: 03-03161, Registro Profissional de Técnologo de Processamento de Dados, 
+          emitido em 2016 pelo Conselho Regional de Administração no Rio de Janeiro, Brasil. </p>
+          * Curso de Windows 2000 Network And Operating Systems Essentials (07/07/2001 - 28/07/2001) <br>
+        </div> 
+
+        <p></p>
+        <hr style="height:10px; border:none; background-image:linear-gradient(to right, red, yellow, violet, blue);">
+        <p></p>
+
+        <h2 class="w3-text-teal"> ESCOLARIDADE – Segundo Grau Técnico Profissional </h2> 
+        <p></p>
+        <hr>
+        <p></p>
+
+        <h3 class="w3-text-blue"> Curso Técnico de ASSISTENTE DE ADMINISTRAÇÃO </h3>
+        <p> O curso foi realizado no <b class="w3-text-teal"> Colégio Estadual André Maurois </b>, curso presencial, 
+        com carga horária de 3204 horas (3 anos), foi concluído em 1984, foi realizado no Municipio do Rio de Janeiro, 
+        RJ, Brasil). Matérias com ênfase no estudo de administração e controle, organização e métodos (O&M), psicologia, 
+        contabilidade e custos, matemática financeira, estatística básica, noção de Direito e Legislação, administração 
+        de Recursos Humanos, noção de Economia e Mercados, noção de gramática dos idiomas Português, Inglês e Francês, 
+        etc. Desde então eu leio tudo sobre a área de administração de empresas. </p>
+        
+        <p></p>
+        <hr>
+        <p></p>
+
+      <h3 class="w3-text-blue"> Curso de PROGRAMADOR DE COMPUTADORES </h3>
+      <p> O curso foi realizado no <b class="w3-text-teal"> IBPI - Instituto Brasileiro de Pesquisa em Informática </b> 
+      (Base Tecnológica Ltda), curso presencial, foi realizado no Período de 1987 até 1988, com carga horária de 270 horas 
+      (12 meses), foi realizado na Cidade do Rio de Janeiro/RJ). Matérias com ênfase no estudo de fluxogramas, algorítimos, 
+      programação estruturada, programação Microsoft Cobol, Turbo Pascal, Turbo C, Borland C++, noção de sistema operacional 
+      Unix, Microsoft MS-DOS, Linux, etc. Desde então, eu leio tudo sobre as novas técnicas de linguagens de programação de 
+      computadores. </p>
+
+
+        <p></p>
+        <hr style="height:10px; border:none; background-image:linear-gradient(to right, red, yellow, violet, blue);">
+        <p></p>
+
+        </div>
+
+      <p><br></p>
+
+      <div class="w3-container w3-card w3-white w3-margin-right w3-justify">
+      <h2 class="w3-text-grey w3-padding-16"> <i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal">
+      <b> Cursos Concluídos (2004 - 2020) </b> </i> </h2>
+
+        <p></p>
+        <h4> CURSOS CONCLUÍDOS EM 2020 </h4> 
+        •	Introduction to CyberSecurity (Cisco Networking Academy) <br>
+        •	Excel Básico (EAD SENAI SP) <br>
+
+        <p></p>
+        <hr>
+        <p></p>
+
+        <h4> CURSOS CONCLUÍDOS EM 2019 </h4>
+        • Inovação (Sebrae RJ) <br>
+        •	Tendências 2019 (SUCESU-RJ) <br>
+
+        <p></p>
+        <hr>
+        <p></p>
+
+        <h4> CURSOS CONCLUÍDOS EM 2018 </h4>
+        • Seminário Network + Big Data 2018 no CRIE-COPPE/UFRJ. <br>
+        •	Redação Empresarial (CRA-RJ) <br>
+        • Inglês para Iniciantes (CRA-RJ) <br>
+
+        <p></p>
+        <hr>
+        <p></p>
+
+        <h4> CURSOS CONCLUÍDOS EM 2017 </h4>
+        •	Ciência de Dados no SUCESU-RJ <br>
+        •	Windows Server 2012 (MVA) <br>
+        •	Internet das Coisas IoT (MVA) <br>
+
+        <p></p>
+        <hr>
+        <p></p>
+
+        <h4> CURSOS CONCLUÍDOS EM 2016 </h4>
+        •	X ENCAD Encontro Anual de Administradores no CRA-RJ. <br>
+        •	Amazon AWS SUMMIT 2016,  palestras de Cloud Computing. </br>
+
+        <p></p>
+        <hr>
+        <p></p>
+
+        <h4> CURSOS CONCLUÍDOS EM 2015 </h4>
+        • Corel Draw X5 no ADV Informática Avançada. <br>
+        • Photoshop CS5 no ADV Informática Avançada. <br>
+        • Microsoft Project 2010 no ADV Informática Avançada. <br>
+
+        <p></p>
+        <hr>
+        <p></p>
+
+        <h4> CURSOS CONCLUÍDOS EM 2004 </h4>
+        •	ENIE 2024 - Feira e Congresso (São Paulo/SP) <br>
+        • NETCOM-2004 da Revista RTI (Aranda Editora - São Paulo/SP) <br>
+        •	WebDesign Essencial (Infnet RJ) <br>
+        •	Windows 2000 FACHA - Faculdades Helio Alonso (Rio de Janeiro/RJ) <br>
+        •	Seminário de Telecomunicação para Não Técnicos (UNISAT RJ) <br>
+        •	Seminário de Prevenção e Primeiros Socorros (ENSEG RJ) <br>
+        •	Administração de Complexos Prediais (NTT) - Rio de Janeiro/RJ <br>
+        •	Microsoft SQL Server 7 <br>
+        •	Microsoft Windows Server NT4 <br>
+
+      <p></p>
+      <hr style="height:10px; border:none; background-image:linear-gradient(to right, red, yellow, violet, blue);">
+      <p></p>
+
       </div>
 
+      <p><br></p>
+                      
+      <div class="w3-container w3-card w3-white w3-margin-right w3-justify">
+        <h2 class="w3-text-grey w3-padding-16"> <i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal">
+        <b> Educação (Cursos Complementares) </b> </i> </h2>
+
+        <p></p>
         <hr>
+        <p></p>
+
+          <div class="w3-container">
+          <h4 class="w3-opacity"> <b> Curso Web Development </b> </h4>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"> Jan 2015 - </i> 
+          <span class="w3-tag w3-teal w3-round"> Atualmente </span> </h6>
+          <p align="justify"> <b> W3Schools.com </b> <br> Cursos de Desenvolvimento Web, site ótimo para estudar, para 
+          atualizar o conhecimento em tecnologias de programação web. Desde 2015 e atualmente, estou relembrando tudo 
+          o que eu já estudei anos atrás em programação de websites: HTML5, CSS3, JavaScript, Bootstrap 5, PHP 8, SQL, 
+          Angular.js, Node.js, React.js, JQuery, Java, Python3, C, C++, C#, etc. </p>
+        </div>                
+  
+        <p></p>
+        <hr>
+        <p></p>
+
+       
+        <div class="w3-container">
+          <h4 class="w3-opacity"> <b> NSI Informática Ltda (Microsoft Partner) </b> </h5>
+          <h6 class="w3-text-teal"> <i class="fa fa-calendar fa-fw w3-margin-right"> Fevereiro/2000 - Maio/2000 </i> </h4>
+          <p> Curso Oficial MCSE Microsoft (Municipio do Rio de Janeiro, RJ, Brazil) <br>
+          * Curso: Supporting MS Windows NT 4.0 Core Technologies (Fevereiro/2000) <br>
+          * Curso: Supporting MS Windows NT 4.0 Enterprise Technologies (Março/2000) <br>     
+          * Curso: Implementing a Database in MS SQL Server 7.0 (Maio/2000) </p>
+        </div>
+
+        <p></p>
+        <hr>
+        <p></p>
+      
+        <div class="w3-container">
+          <h4 class="w3-opacity"> <b> TBA Informática Ltda (Microsoft Partner) </b> </h4>
+          <h6 class="w3-text-teal"> <i class="fa fa-calendar fa-fw w3-margin-right"> Janeiro/2000 - Fevereiro/2000 </i> </h6>
+          <p> Curso Oficial MCSE Microsoft (Municipio do Rio de Janeiro, Brasil) <br> 
+          * Curso: Internetworking MS TCP-IP on Microsoft Windows NT 4.0 (Fevereiro/2000) <br>
+          * Curso: Administrando o Microsoft Windows NT 4.0 (Janeiro/2000) </p>
+          <p><br></p>
+          <hr style="height:10px; border:none; background-image:linear-gradient(to right, red, yellow, violet, blue);"> 
+          <br>
+        </div>
         
-    </div> <!-- container / margin-botton -->
+        
+    </div> <!-- container --> <p><br></p>
+  
+    </div> <!-- margin-botton --> <p><br></p>
 
-    <hr style="width:100px" class="w3-opacity">
-
-    <!-- End Right Column -->
-    </div>
+  <!-- End Right Column -->
+  </div>  <p><br></p>
     
   <!-- End Grid -->
-  </div> </div>
+  </div>  <p></p>
   
   <!-- End Page Container -->
-</div> </div>
+  </div>  <p></p>
  
+     <p><br></p>
 
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p></p>
-  <p>Find me on social media. ( <a href="https://gravatar.com/anamgauna">https://gravatar.com/anamgauna</a> )
-    <p></p>
-   
-    <!--  Google Maps Incorporado  -->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.8893863298917!2d-43.19393468513257!3d-22.954300484987726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fe0d5488ec5%3A0x6eb6f463a1374111!2sR.+Volunt%C3%A1rios+da+P%C3%A1tria%2C+305+-+Botafogo%2C+Rio+de+Janeiro+-+RJ%2C+22270-010!5e0!3m2!1spt-BR!2sbr!4v1527636033795"
-    width="100%" height="200px" frameborder="1" allow="allowfullscreen"> </iframe>
-    <!--  Fim Google Maps Indorporado  -->
-    <br>
+  </main>
 
-<!-- =============================================================================================== -->
-
-    <div class="w3-container w3-teal w3-center w3-margin-top text-center"
-         style="color: #ffffff; margin: auto auto auto auto; 
-                padding: auto; text-decoration:none;">
-        <!-- Copyright -->
-        <span class="copyright">Copyright© 1995-2025 Ana Mercedes Gauna (
-        <a href="http://anagauna.dev.br/" style="color:#ffffff;">anagauna@anagauna.dev.br</a> )
-        </span> <p></p>
+  <!-- =========================================================================================================== -->
+  <footer class="rodape" style="margin: 0px; padding: auto auto auto auto; position: absolute; botton: 0;">
+    <div class="w3-container w3-tear w3-center w3-text-center">
+      <p></p>
+      <!-- Copyright --> <b> Copyright© 1998-2026 | Ana Mercedes Gauna (CRA-RJ: 03-03161) 
+      | www.anagauna.dev.br | <a href="https://gravatar.com/anamgauna"> Gravatar </a> </b> <br>
+      <b> Data da última atualização: 13 de Abril de 2026 </b>  <p></p>
     </div>
-
   </footer>
-    
+
 </body>
 
 </html>
+
 
